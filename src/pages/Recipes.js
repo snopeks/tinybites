@@ -2,7 +2,7 @@ import React from 'react';
 
 const Recipes = () => (
     <div>
-        <p>This is Recipes page</p>
+        <h2>Recipes</h2>
     </div>
 )
 
