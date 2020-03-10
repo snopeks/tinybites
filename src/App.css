@@ -11,6 +11,13 @@ a {
   text-decoration: none; 
   color: #373837; 
 }
+img {
+  margin: 40px; 
+  border-radius: 20px; 
+  border: 5px solid #97D3B0; 
+  height: 200px; 
+  transform: rotate(260deg);
+}
 
 #header {
   text-align: center; 
