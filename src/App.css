@@ -7,9 +7,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+a {
+  text-decoration: none; 
+  color: #373837; 
+}
 #header {
   background-color: #8CC24E; 
-  height: 150px; 
+  height: 160px; 
 }
 #header h1 {
   margin: 0; 
@@ -31,13 +35,40 @@ li {
 
 li a {
   display: block; 
-  text-decoration: none; 
   padding: 16px; 
   text-align: center; 
   color: #373837; 
 }
 li a:hover{
   color:white; 
+}
+.container {
+  display: grid; 
+}
+.section {
+  border-radius: 10px; 
+  width: 90%; 
+  height: 100px; 
+}
+.section:nth-child(1){
+  background-image: url("https://www.unicef.org/parenting/sites/unicef.org.parenting/files/styles/hero_desktop/public/AdobeStock_166161324.jpeg?itok=w6XMDzoD");
+  background-position: center; 
+  background-size: cover; 
+}
+.section:nth-child(2){
+  background-image: url("https://www.rd.com/wp-content/uploads/2017/04/01-Nutrients-Even-Nutritionists-Dont-Get-Enough-Of-1024x683.jpg");
+  background-position: center; 
+  background-size: cover; 
+}
+.section:nth-child(3){
+  background-image: url("https://extendednotesimages.s3.amazonaws.com/channel_images/642/healthy_eating_main__800x400.jpg");
+  background-position: center; 
+  background-size: cover; 
+}
+.section:hover {
+  background-image: none; 
+  background-color: #97D3B0;
+  ; 
 }
 
 footer {
@@ -47,6 +78,13 @@ footer {
 }
 footer p {
   padding: 10px; 
+}
+@media (min-width: 600px){
+  .container {
+    grid-template-columns: 30% 30% 30%; 
+    justify-items: center; 
+    justify-content: center; 
+  }
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
