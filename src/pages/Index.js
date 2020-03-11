@@ -10,13 +10,25 @@ const Home = () => (
 
         <div className="container">
             <div className="section">
-                <h3>Nutrients!</h3>
+                <a href="/nutrients">
+                    <div>
+                        <h3>Nutrients!</h3>
+                    </div>
+                </a>
             </div>
             <div className="section">
-                <h3>Recipes!</h3>
+                <a href="/easymeals">
+                    <div>
+                        <h3>Meal Ideas!</h3>
+                    </div>
+                </a>
             </div>
             <div className="section">
-                <h3>Resources!</h3>
+                <a href="/resources">
+                    <div>
+                        <h3>Resources!</h3>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

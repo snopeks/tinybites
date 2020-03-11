@@ -33,7 +33,7 @@ h1, h2, h3, h4 {
   font-family: 'Bellota', cursive;
   text-align: center; 
 }
-ul {
+#header ul {
   list-style-type: none; 
   margin: 0; 
   padding: 0; 
@@ -43,7 +43,7 @@ ul {
   float: left; 
 } */
 
-li a {
+#header li a {
   display: block; 
   padding: 16px; 
   text-align: center; 
@@ -66,13 +66,28 @@ li a:hover{
   border-radius: 10px; 
   width: 100%; 
   height: 150px; 
+  position: relative; 
+}
+.section div {
+  position: absolute; 
+  bottom: 0;
+  top: 0; 
+  width: 100%; 
+  height: auto;  
+  color: black; 
+  text-align: center;
 }
 
 .nutrients div {
   background-color: #97D3B0;
-  height: 150px; 
-  width: 100%; 
+  height: auto; 
+  width: 90%; 
   border-radius: 10px; 
+  text-align: left;
+  padding: 10px; 
+}
+.section h3 {
+  background-color: #DDD6CB; 
 }
 .section:nth-child(1){
   background-image: url("https://www.unicef.org/parenting/sites/unicef.org.parenting/files/styles/hero_desktop/public/AdobeStock_166161324.jpeg?itok=w6XMDzoD");
@@ -92,7 +107,6 @@ li a:hover{
 .section:hover {
   background-image: none; 
   background-color: #97D3B0;
-  ; 
 }
 
 footer {
@@ -112,7 +126,7 @@ footer p {
   #header {
     height: 160px;
   }
-  li {
+  #header li {
     float: left; 
   }
 }
