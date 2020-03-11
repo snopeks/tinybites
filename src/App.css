@@ -56,12 +56,20 @@ li a:hover{
   display: grid; 
   justify-items: center; 
   grid-row-gap: 10px; 
+  grid-column-gap: 5px; 
 
 }
 .section {
   border-radius: 10px; 
-  width: 90%; 
+  width: 100%; 
   height: 150px; 
+}
+
+.nutrients div {
+  background-color: #97D3B0;
+  height: 150px; 
+  width: 100%; 
+  border-radius: 10px; 
 }
 .section:nth-child(1){
   background-image: url("https://www.unicef.org/parenting/sites/unicef.org.parenting/files/styles/hero_desktop/public/AdobeStock_166161324.jpeg?itok=w6XMDzoD");

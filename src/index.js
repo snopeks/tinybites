@@ -4,7 +4,7 @@ import {Route, BrowserRouter as Router} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import About from './pages/About';
-import Recipes from './pages/Recipes';
+import EasyMeals from './pages/EasyMeals';
 import Resources from './pages/Resources';
 import Nutrients from './pages/Nutrients';
 import Header from './components/header';
@@ -19,7 +19,7 @@ const routing = (
             <Route path="/nutrients" component={Nutrients}/>
             <Route path="/about" component={About}/>
             <Route path="/resources" component={Resources}/>
-            <Route path="/recipes" component={Recipes}/>
+            <Route path="/easymeals" component={EasyMeals}/>
             <footer>
               <p>Website Design &amp; Development by Stephanie Snopek</p>
             </footer>
