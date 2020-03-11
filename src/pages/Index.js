@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Home = () => (
-    <div>
+    <div className="content">
         <h2>Feeding your baby just got easier!</h2>
         <p>We know you want to feed your baby well and ensure they grow up healthy and strong.</p>
         <p>But it can be confusing to know what's best with the endless conflicting advice you get as new parents! </p>

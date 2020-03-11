@@ -22,7 +22,7 @@ img {
 #header {
   text-align: center; 
   background-color: #8CC24E; 
-  height: 160px; 
+  height: 300px;  
 }
 #header h1 {
   margin: 0; 
@@ -39,9 +39,9 @@ ul {
   padding: 0; 
 }
 
-li {
+/* li {
   float: left; 
-}
+} */
 
 li a {
   display: block; 
@@ -58,6 +58,9 @@ li a:hover{
   grid-row-gap: 10px; 
   grid-column-gap: 5px; 
 
+}
+.content {
+  padding: 30px; 
 }
 .section {
   border-radius: 10px; 
@@ -105,6 +108,12 @@ footer p {
   .container {
     grid-template-columns: 30% 30% 30%; 
     justify-content: center; 
+  }
+  #header {
+    height: 160px;
+  }
+  li {
+    float: left; 
   }
 }
 @media (prefers-reduced-motion: no-preference) {

@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Nutrients = () => (
-    <div>
+    <div className="content">
         <h2>Key Nutrients for babies 6-12 months</h2>
         <p>All humans need certain nutrients to grow and thrive. These are the ones to focus on for young babies.</p>
+        <p>HOWEVER! Keep in mind that by giving your baby a wide variety of foods, you are most likely hitting these targets already! Don't stress over having a list to check off every meal. </p>
         <div className="nutrients container">
             <div>
                 <p>Iron</p>
