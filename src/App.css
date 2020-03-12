@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bellota|Montserrat&display=swap');
 .App {
   text-align: center;
 }
@@ -18,6 +18,9 @@ img {
   height: 200px; 
   transform: rotate(260deg);
 }
+p, li {
+  font-family: 'Montserrat', sans-serif; 
+}
 
 #header {
   text-align: center; 
@@ -33,23 +36,31 @@ h1, h2, h3, h4 {
   font-family: 'Bellota', cursive;
   text-align: center; 
 }
-ul {
+#header ul {
   list-style-type: none; 
   margin: 0; 
   padding: 0; 
 }
 
-/* li {
-  float: left; 
-} */
+.babyImage {
+  background-image: url("https://media4.s-nbcnews.com/j/newscms/2016_19/1084461/happy-baby-high-chair-stock-today-160511-tease_429043bc70b9928c88c3f7fe31cf6803.fit-760w.jpg");
+  height: 200px; 
+  width: 400px; 
+  background-position: center; 
+  background-size: cover; 
+  margin: 0 auto; 
+  border-radius: 10px; 
+  border: 5px solid #97D3B0; 
+}
 
-li a {
+#header li a {
   display: block; 
   padding: 16px; 
   text-align: center; 
   color: #373837; 
 }
-li a:hover{
+
+#header li a:hover{
   color:white; 
 }
 .container {
@@ -66,13 +77,31 @@ li a:hover{
   border-radius: 10px; 
   width: 100%; 
   height: 150px; 
+  position: relative; 
+}
+.section div {
+  position: absolute; 
+  bottom: 0;
+  top: 0; 
+  width: 100%; 
+  height: auto;  
+  color: black; 
+  text-align: center;
 }
 
 .nutrients div {
   background-color: #97D3B0;
-  height: 150px; 
-  width: 100%; 
+  height: auto; 
+  width: 90%; 
   border-radius: 10px; 
+  text-align: left;
+}
+.nutrients div p, .nutrients div li {
+  padding: 15px; 
+}
+
+.section h3, .nutrients div h3 {
+  background-color: #DDD6CB; 
 }
 .section:nth-child(1){
   background-image: url("https://www.unicef.org/parenting/sites/unicef.org.parenting/files/styles/hero_desktop/public/AdobeStock_166161324.jpeg?itok=w6XMDzoD");
@@ -92,7 +121,6 @@ li a:hover{
 .section:hover {
   background-image: none; 
   background-color: #97D3B0;
-  ; 
 }
 
 footer {
@@ -112,7 +140,7 @@ footer p {
   #header {
     height: 160px;
   }
-  li {
+  #header li {
     float: left; 
   }
 }
