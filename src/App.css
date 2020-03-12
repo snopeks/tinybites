@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bellota|Montserrat&display=swap');
 .App {
   text-align: center;
 }
@@ -17,6 +17,9 @@ img {
   border: 5px solid #97D3B0; 
   height: 200px; 
   transform: rotate(260deg);
+}
+p, li {
+  font-family: 'Montserrat', sans-serif; 
 }
 
 #header {
@@ -39,9 +42,16 @@ h1, h2, h3, h4 {
   padding: 0; 
 }
 
-/* li {
-  float: left; 
-} */
+.babyImage {
+  background-image: url("https://media4.s-nbcnews.com/j/newscms/2016_19/1084461/happy-baby-high-chair-stock-today-160511-tease_429043bc70b9928c88c3f7fe31cf6803.fit-760w.jpg");
+  height: 200px; 
+  width: 400px; 
+  background-position: center; 
+  background-size: cover; 
+  margin: 0 auto; 
+  border-radius: 10px; 
+  border: 5px solid #97D3B0; 
+}
 
 #header li a {
   display: block; 
@@ -49,7 +59,8 @@ h1, h2, h3, h4 {
   text-align: center; 
   color: #373837; 
 }
-li a:hover{
+
+#header li a:hover{
   color:white; 
 }
 .container {
@@ -84,9 +95,12 @@ li a:hover{
   width: 90%; 
   border-radius: 10px; 
   text-align: left;
-  padding: 10px; 
 }
-.section h3 {
+.nutrients div p, .nutrients div li {
+  padding: 15px; 
+}
+
+.section h3, .nutrients div h3 {
   background-color: #DDD6CB; 
 }
 .section:nth-child(1){

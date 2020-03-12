@@ -2,15 +2,17 @@ import React from 'react';
 
 const Nutrients = () => (
     <div className="content">
+        <h2>0-6 months: Babies need milk</h2>
+        <p>For the first six months of life, babies should only get breastmilk or infant formula. This liquid diet is highly nutritious, absorbable and rich in fats, perfect for their needs. Starting solid foods too early can interfere with their milk intake, which can cause them to be deficient in calories and nutrients because baby digestive systems aren't usually capable of handling solids effectively yet. </p>
         <h2>Key Nutrients for babies 6-12 months</h2>
         <p>All humans need certain nutrients to grow and thrive. These are the ones to focus on for young babies.</p>
-        <p>HOWEVER! Keep in mind that by giving your baby a wide variety of foods, you are most likely hitting these targets already! Don't stress over having a list to check off every meal. </p>
+        <p>HOWEVER! Keep in mind that by giving your baby a wide variety of foods, you are most likely hitting these targets already! </p>
+        <h3>Point being: Don't stress over having a list to check off every meal.</h3>
         <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients!</p>
         <p>For a general goal, the best advice I've read is to provide one iron, fat and fruit/veg source per meal.</p>
-        
         <div className="nutrients container">
             <div>
-                <h3>Powerhouse foods!</h3>
+                <h3>Powerhouse foods</h3>
                 <p><b>Eggs:</b> iron, protein, B12, Omega3s</p>
                 <p><b>Tofu:</b> iron, protein, Omega3s, calcium</p>
                 <p><b>Nut butters:</b> iron, protein, fat, zinc</p>
@@ -103,6 +105,7 @@ const Nutrients = () => (
                 </ul>
             </div>
         </div>
+        <p>Check out these <a href="/easymeals">easy meals</a> for some super simple and healthy food combos.</p>
         <div>
             <p>References: <a href="https://www.healthlinkbc.ca/healthy-eating/vegetarian-baby-6-12-month">HealthLink BC</a></p>
         </div>
