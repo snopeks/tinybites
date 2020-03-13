@@ -12,11 +12,11 @@ a {
   color: #373837; 
 }
 img {
-  margin: 40px; 
+  margin: 40px auto; 
   border-radius: 20px; 
   border: 5px solid #97D3B0; 
   height: 200px; 
-  transform: rotate(260deg);
+  transform: rotate(270deg);
 }
 p, li {
   font-family: 'Montserrat', sans-serif; 
@@ -30,7 +30,10 @@ p, li {
 #header h1 {
   margin: 0; 
   padding: 30px; 
-  font-size: 2.5em; 
+  font-size: 2.5em;
+}
+#header a {
+  color: white;  
 }
 h1, h2, h3, h4 {
   font-family: 'Bellota', cursive;
@@ -45,7 +48,7 @@ h1, h2, h3, h4 {
 .babyImage {
   background-image: url("https://media4.s-nbcnews.com/j/newscms/2016_19/1084461/happy-baby-high-chair-stock-today-160511-tease_429043bc70b9928c88c3f7fe31cf6803.fit-760w.jpg");
   height: 200px; 
-  width: 400px; 
+  width: 75%; 
   background-position: center; 
   background-size: cover; 
   margin: 0 auto; 
@@ -56,11 +59,11 @@ h1, h2, h3, h4 {
   display: block; 
   padding: 16px; 
   text-align: center; 
-  color: #373837; 
+  color: white ; 
 }
-
+/* #373837 */
 #header li a:hover{
-  color:white; 
+  font-weight: bold; 
 }
 .container {
   display: grid; 
@@ -71,6 +74,10 @@ h1, h2, h3, h4 {
 }
 .content {
   padding: 30px; 
+}
+.text {
+  width: 75%; 
+  margin: 0 auto; 
 }
 .section {
   width: 100%; 
@@ -147,6 +154,12 @@ footer p {
   }
   #header li {
     float: left; 
+  }
+  .babyImage {
+    width: 50%;
+  }
+  .text {
+    width: 50%
   }
 }
 @media (prefers-reduced-motion: no-preference) {
