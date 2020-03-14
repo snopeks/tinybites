@@ -111,6 +111,96 @@ h1, h2, h3, h4 {
 .nutrients div p, .nutrients div li {
   padding: 15px; 
 }
+#lgCircleLeft {
+  background-color: #D6AC56; 
+  position: absolute; 
+  height: 100px; 
+  width: 100px; 
+  /* border-radius: 50% 50%;  */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  top: 110%; 
+  left: 9%; 
+  z-index: -2
+}
+#medCircleLeft {
+  background-color: #D6AC56;
+  position: absolute; 
+  height: 50px; 
+  width: 50px; 
+  /* border-radius: 50% 50%;  */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  top: 76%; 
+  left: 9%; 
+  z-index: -2; 
+}
+#smCircleLeft {
+  background-color: #D6AC56; 
+  position: absolute; 
+  height: 30px; 
+  width: 30px; 
+  /* border-radius: 50% 50%;  */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  top: 50%; 
+  left: 11%; 
+  z-index: -2; 
+}
+
+#lgCircleRight {
+  background-color: #D6AC56; 
+  position: absolute; 
+  height: 100px; 
+  width: 100px; 
+  /* border-radius: 50% 50%;  */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  top: 110%; 
+  right: 9%; 
+  z-index: -2
+}
+#medCircleRight {
+  background-color: #D6AC56;
+  position: absolute; 
+  height: 50px; 
+  width: 50px; 
+  /* border-radius: 50% 50%;  */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  top: 76%; 
+  right: 9%; 
+  z-index: -2; 
+}
+#smCircleRight {
+  background-color: #D6AC56; 
+  position: absolute; 
+  height: 30px; 
+  width: 30px; 
+  /* border-radius: 50% 50%;  */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  top: 50%; 
+  right: 11%;  
+  z-index: -2; 
+}
+
+#headerstarleft {
+  background-color: #D6AC56; 
+  position: absolute; 
+  height: 30px; 
+  width: 30px; 
+  /* border-radius: 50% 50%;  */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  top: 40px; 
+  left: 70px; 
+  /* z-index: -2; */
+}
+#headerstarright {
+  background-color: #D6AC56; 
+  position: absolute; 
+  height: 30px; 
+  width: 30px; 
+  /* border-radius: 50% 50%;  */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  top: 40px; 
+  right: 70px; 
+  /* z-index: -2; */
+}
 
 .section h3, .nutrients div h3 {
   background-color: #DDD6CB; 
@@ -131,8 +221,8 @@ h1, h2, h3, h4 {
   background-size: cover; 
 }
 .section:hover {
-  background-image: none; 
   background-color: #97D3B0;
+  background-image: none; 
 }
 
 footer {
@@ -160,6 +250,15 @@ footer p {
   }
   .text {
     width: 50%
+  }
+
+  #headerstarleft {
+    top: 40px; 
+    left: 450px;
+  }
+  #headerstarright {
+    top: 40px; 
+    right: 450px;
   }
 }
 @media (prefers-reduced-motion: no-preference) {
