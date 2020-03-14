@@ -7,6 +7,8 @@ const EasyMeals = () => (
             <p>These meals are based on a philosophy called <i>baby led feeding</i>. Essentially it means we feed babies whole foods (aka not pureeing them).</p>
             <p>As long as the foods are prepared to an age appropriate texture and size, it is no more likely to be a choking hazard than purees!</p>
             <p>An important part of baby led feeding is allowing your child to choose how much to eat. Every baby has their own appetite level, and in most cases we can trust them to decide when they are full.</p>
+            <p>There are two main stages of food preparation: <b>spears vs bites</b>. When your baby first starts eating, they typically have a <b>"palmer's"</b> grasp and hold food in their entire palm. Cut food into spears for palmer's grasp.</p>
+            <p>After a while they switch to a <b>"pincer"</b> grasp, which is holding food between the thumb and forefinger. The pincer grasp is more advanced and requires cutting food into small bites, about the size of a chickpea.</p>
             <p><i>If you have any concerns about your baby's growth or nutrition, please discuss with your health care provider!</i></p>
         </div>
         <div className="mealdiv">
