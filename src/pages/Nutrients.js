@@ -5,13 +5,13 @@ const Nutrients = () => (
         <div className="text">
             <h2>0-6 months: Babies need milk</h2>
             <p>For the first six months of life, babies should only get <b>breastmilk</b> or <b>infant formula</b>. This liquid diet is highly nutritious, absorbable and rich in fats, perfect for their needs. Starting solid foods too early can interfere with their milk intake, which can cause them to be deficient in calories and nutrients because baby digestive systems aren't usually capable of handling solids effectively yet. </p>
-            <h2>Key Nutrients for babies 6-12 months</h2>
+            <h2>6-12 months: Time to add food</h2>
             <p>Babies need breastmilk or infant formula up until 1 year at least, but by 6 months they are ready for solid food -- Exciting! </p>
             <p>At this time, you should be thinking about these key nutrients when planning their meals.</p>
             <p>HOWEVER! Keep in mind that by giving your baby a wide variety of foods, you are most likely hitting these targets already! </p>
             <h3>Point being: Don't stress over having a list to check off every meal.</h3>
             <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients!</p>
-            <p>For a general goal, the best advice I've read is to provide one iron, fat and fruit/veg source per meal.</p>
+            <p>For a general goal, the best advice I've read is to provide <br/><b>one iron, fat and fruit/veg source per meal</b>.</p>
         </div>
         <div className="nutrients container">
             <div>

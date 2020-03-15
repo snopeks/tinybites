@@ -12,8 +12,7 @@ a {
   color: #373837; 
 }
 img {
-  margin: 40px auto; 
-  border-radius: 20px; 
+  margin: 40px auto;  
   border: 5px solid #97D3B0; 
   height: 200px; 
   transform: rotate(270deg);
@@ -21,11 +20,14 @@ img {
 p, li {
   font-family: 'Montserrat', sans-serif; 
 }
+p {
+  text-align: left; 
+}
 
 #header {
   text-align: center; 
   background-color: #22A47B;
-  height: 300px;  
+  height: 320px;  
 }
 #header h1 {
   margin: 0; 
@@ -47,14 +49,22 @@ h1, h2, h3, h4 {
 
 .babyImage {
   background-image: url("https://media4.s-nbcnews.com/j/newscms/2016_19/1084461/happy-baby-high-chair-stock-today-160511-tease_429043bc70b9928c88c3f7fe31cf6803.fit-760w.jpg");
-  height: 200px; 
-  width: 75%; 
+  height: 300px; 
+  width: auto; 
   background-position: center; 
   background-size: cover; 
-  margin: 0 auto; 
-  border: 5px solid #97D3B0; 
+  margin: -30px -30px 30px -30px; 
 }
-
+.babyImage h2{
+  position: absolute; 
+  top: 500px;  
+  margin: 0 10px; 
+  text-align: center; 
+  color: white;
+  text-shadow: 3px 3px 2px black;
+  font-weight: bold; 
+  font-size: 30px; 
+}
 #header li a {
   display: block; 
   padding: 16px; 
@@ -80,21 +90,15 @@ h1, h2, h3, h4 {
   margin: 0 auto; 
 }
 .section {
-  border-radius: 50% 50%; 
   width: 250px; 
   height: 250px; 
-  position: relative; 
+  border: 2px solid black; 
+  box-shadow: 3px 3px 4px #DDD6CB;
 }
 .section div {
-  position: absolute; 
-  bottom: 0;
-  top: 0; 
   width: 100%; 
   height: auto;
-  border-radius: 50% 50%;   
-  color: black; 
   text-align: center;
-  box-shadow: 3px 3px 4px #DDD6CB;
 }
 .mealdiv {
   border: 2px solid #97D3B0;
@@ -102,6 +106,9 @@ h1, h2, h3, h4 {
 }
 .mealdiv h3 {
   background-color: #97D3B0; ; 
+}
+#resourceLinks p{
+  text-align: center; 
 }
 #resourceLinks a:hover {
   font-size: 15px; 
@@ -205,17 +212,17 @@ h1, h2, h3, h4 {
 .section h3, .nutrients div h3 {
   background-color: #DDD6CB; 
 }
-.section:nth-child(1){
+.s1{
   background-image: url("https://www.unicef.org/parenting/sites/unicef.org.parenting/files/styles/hero_desktop/public/AdobeStock_166161324.jpeg?itok=w6XMDzoD");
   background-position: center; 
   background-size: cover; 
 }
-.section:nth-child(2){
+.s2{
   background-image: url("https://www.rd.com/wp-content/uploads/2017/04/01-Nutrients-Even-Nutritionists-Dont-Get-Enough-Of-1024x683.jpg");
   background-position: center; 
   background-size: cover; 
 }
-.section:nth-child(3){
+.s3{
   background-image: url("https://extendednotesimages.s3.amazonaws.com/channel_images/642/healthy_eating_main__800x400.jpg");
   background-position: center; 
   background-size: cover; 
@@ -227,7 +234,7 @@ h1, h2, h3, h4 {
 
 footer {
   background-color: #22A47B;
-  height: 70px; 
+  height: 150px; 
   text-align: left; 
   font-family: 'Bellota', cursive;
 }
@@ -246,10 +253,18 @@ footer p {
     float: left; 
   }
   .babyImage {
-    width: 50%;
+    position: relative; 
+    height: 400px; 
+    margin: -30px -30px 30px -30px; 
   }
+  .babyImage h2 {
+    top: 100px; 
+    right: 70px;
+    font-size: 30px; 
+  }
+  
   .text {
-    width: 50%
+    width: 50%;
   }
   #headerContainer {
     grid-template-columns:40% 20% 40%; 

@@ -12,12 +12,10 @@ const Resources = () => (
             <p><a href="https://www.instagram.com/plantbasedjuniors/">@plantbasedjuniors</a></p>
             <p><a href="https://newwaysnutrition.com/">New Ways Nutrition</a></p>
             <p><a href="https://www.instagram.com/newwaysnutrition/">@newwaysnutrition</a></p>
+            <p><a href="https://www.babyledweaningideas.com/carrot-kale-cheese-muffins/">Baby Led Weaning Ideas</a></p>
+            <p><a href="https://mylittleeater.com/my-top-6-starter-finger-foods-for-baby-led-weaning/">My Little Eater</a></p>
             <p><a href="https://www.healthlinkbc.ca/healthy-eating/vegetarian-baby-6-12-month">HealthLink BC</a></p>
-            <p><a href="https://www.healthlinkbc.ca/healthy-eating/vegetarian-baby-6-12-month">HealthLink BC</a></p>
-            <p><a href="https://www.healthlinkbc.ca/healthy-eating/vegetarian-baby-6-12-month">HealthLink BC</a></p>
-            <p><a href="https://www.healthlinkbc.ca/healthy-eating/vegetarian-baby-6-12-month">HealthLink BC</a></p>
-            <p><a href="https://www.healthlinkbc.ca/healthy-eating/vegetarian-baby-6-12-month">HealthLink BC</a></p>
-            <p><a href="https://www.healthlinkbc.ca/healthy-eating/vegetarian-baby-6-12-month">HealthLink BC</a></p>
+            <p><a href="https://www.healthyfamiliesbc.ca/home/blog/introducing-solids-your-baby-look-baby-led-weaning">Healthy Families BC</a></p>
         </div>
     </div>
 )

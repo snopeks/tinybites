@@ -27,7 +27,7 @@ const routing = (
             <Route path="/resources" component={Resources}/>
             <Route path="/easymeals" component={EasyMeals}/>
             <footer>
-              <p>Website Design &amp; Development by Stephanie Snopek</p>
+              <p>Website Design &amp; Development by <a href="https://www.snowgillconsulting.com">Snowgill Consulting</a></p>
             </footer>
         </div>
     </Router>
