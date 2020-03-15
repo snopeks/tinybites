@@ -20,9 +20,7 @@ img {
 p, li {
   font-family: 'Montserrat', sans-serif; 
 }
-p {
-  text-align: left; 
-}
+
 
 #header {
   text-align: center; 
@@ -104,6 +102,7 @@ h1, h2, h3, h4 {
   border: 2px solid #97D3B0;
   margin: 5px; 
 }
+
 .mealdiv h3 {
   background-color: #97D3B0; ; 
 }
@@ -124,16 +123,6 @@ h1, h2, h3, h4 {
 }
 .nutrients div p, .nutrients div li {
   padding: 15px; 
-}
-#lgCircleLeft {
-  background-color: #D6AC56; 
-  position: absolute; 
-  height: 100px; 
-  width: 100px; 
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  top: 100%; 
-  left: 9%; 
-  z-index: -2
 }
 #medCircleLeft {
   background-color: #D6AC56;
@@ -173,17 +162,7 @@ h1, h2, h3, h4 {
   width: 50px; 
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
   top: 76%; 
-  right: 9%; 
-  z-index: -2; 
-}
-#smCircleRight {
-  background-color: #D6AC56; 
-  position: absolute; 
-  height: 30px; 
-  width: 30px; 
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  top: 50%; 
-  right: 11%;  
+  right: 20%; 
   z-index: -2; 
 }
 

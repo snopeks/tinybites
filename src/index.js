@@ -15,12 +15,6 @@ const routing = (
     <Router>
         <div className="App">
             <Header/>
-            <div id="smCircleLeft"></div>
-            <div id="medCircleLeft"></div>
-            <div id="lgCircleLeft"></div>
-            <div id="smCircleRight"></div>
-            <div id="medCircleRight"></div>
-            <div id="lgCircleRight"></div>
             <Route exact path="/" component={App}/>
             <Route path="/nutrients" component={Nutrients}/>
             <Route path="/about" component={About}/>
