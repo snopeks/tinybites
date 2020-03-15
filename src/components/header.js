@@ -3,7 +3,11 @@ import React from 'react';
 
 const Header = () => (
     <div id="header">
-        <h1><a href="/">Tiny Bites</a></h1>
+        <div id="headerContainer">
+            <div id="headerstarleft"></div>
+            <h1><a href="/">Tiny Bites</a></h1>
+            <div id="headerstarright"></div>
+        </div>
         <ul>
             <li><a href="/nutrients">Baby Nutrition</a></li>
             <li><a href="/easymeals">Easy Meals</a></li>

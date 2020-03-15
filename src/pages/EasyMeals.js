@@ -2,26 +2,33 @@ import React from 'react';
 
 const EasyMeals = () => (
     <div className="content">
-        <h2>Meal Ideas</h2>
-        <p>These meals are based on a philosophy called <i>baby led feeding</i>. Essentially it means we feed babies whole foods (aka not pureeing them).</p>
-        <p>As long as the foods are prepared to an age appropriate texture and size, it is no more likely to be a choking hazard than purees!</p>
-        <p>An important part of baby led feeding is allowing your child to choose how much to eat. Every baby has their own appetite level, and in most cases we can trust them to decide when they are full.</p>
-        <p><i>If you have any concerns about your baby's growth or nutrition, please discuss with your health care provider!</i></p>
+        <div className="text">
+            <h2>Baby Led Weaning</h2>
+            <p>These meals are based on a philosophy called <i>baby led weaning</i>. Essentially it means we feed babies whole foods (aka not pureeing them).</p>
+            <p>As long as the foods are prepared to an age appropriate texture and size, it is no more likely to be a choking hazard than purees!</p>
+            <h2>Spears vs Bites</h2>
+            <p>When your baby first starts eating, they typically have a <b>"palmer's"</b> grasp and hold food in their entire palm. Cut food into <b>spears for palmer's grasp</b>.</p>
+            <p>After a while they learn a <b>"pincer"</b> grasp, which is holding food between the thumb and forefinger. Cut food into <b>small bites for pincer grasp</b>. No bigger than a chickpea</p>
+            <p>Allow your child to choose how much to eat. Every baby has their own appetite level, and in most cases we can trust them to decide when they are full.</p>
+            <p><i>If you have any concerns about your baby's growth or nutrition, please discuss with your health care provider!</i></p>
+        </div>
         <div className="mealdiv">
             <h3>Meal basics</h3>
             <h4>Simple go-to options for busy parents</h4>
             <p>Iron-fortified baby cereal &amp; banana with nut butter</p>
-            <p>Pasta with Peas &amp; Yogurt sauce (legume-based pasta for added iron)</p>
+            <p>Pasta with Mashed Peas &amp; Yogurt sauce (legume-based pasta for added iron)</p>
             <p>Butter or oil-sauteed vegetables &amp; nut butter toast</p>
             <p>Chopped avocado with nut butter sauce, tofu pieces, &amp; raspberries (or any berry on hand, slightly mushed)</p>
         </div>
         <div className="mealdiv">
-            <h3>Nutrition-boosting Toppings</h3>
+            <h3>Nutrition-boosting Toppings and Sides</h3>
             <div className="container ">
                 <p>Nutritional Yeast (b vitamins)</p>
                 <p>Hemp hearts (omega 3s, protein, iron)</p>
                 <p>Chia seeds (omega 3s, protein, fiber, calcium)</p>
                 <p>Flax meal (omega 3s, fiber)</p>
+                <p>Slightly  mashed berries</p>
+                <p>Canned beans, softened or mashed</p>
             </div>
         </div>
         <div className="mealdiv">
@@ -33,7 +40,7 @@ const EasyMeals = () => (
                 </div>
                 <div>
                     <h4>Yogurt sauce</h4>
-                    <p>Combine 1-2 TBSP of 4%+ M.F. yogurt with 1 TBSP soft tofu, mix till mostly smooth and enjoy on pasta or vegetables!</p>
+                    <p>Combine 1-2 TBSP of 4%+ M.F. yogurt with 1 TBSP soft tofu, add 1/4 tsp coriander, mix till mostly smooth and enjoy on pasta or vegetables!</p>
                 </div>
                 <div>
                     <h4>Cheeze sauce</h4>
@@ -42,35 +49,43 @@ const EasyMeals = () => (
             </div>
         </div>
         <div className="mealdiv">
-            <h3>Quick and Easy Recipes</h3>
-            <h4>Healthy meals in ~30min</h4>
+            <h3>Healthy Recipes in 10-30min</h3>
             <div className="container ">
                 <div>
                     <p>Baby Pancakes</p>
+                    <p>Combine 1/2 cup chickpea flour, 1/2 cup regular flour, 1/4 cup flax meal, 1 tsp baking poweder, 1/2 mashed banana and 1/2 cup plant milk. Mix well, pour batter into a pan heated with oil. Let cook until lightly browned and bubbles form on the top, then flip. Serve with nut butter on top.</p>
                 </div>
                 <div>
                     <p>Simple Stirfry</p>
+                    <p>Choose any three veggies (eg mushrooms, asparagus, onion), chop into bite sizes and sautee in oil or butter until soft. Add spices like cumin, coriander, or anything savory (not too spicy). Serve warm. </p>
                 </div>
                 <div>
-                    <p>Superfood Combo</p>
+                    <p>Avocado Toast</p>
+                    <p>Toast whole wheat bread, mash avocado with a splash of oil, a dash of lemon juice. Spread avocado on toast and sprinkle with hemp hearts and nutritional yeast. Slice into strips or bites and serve.</p>
                 </div>
                 <div>
-                    <p>Fruity &amp; Delicious</p>
+                    <p>Easy Pasta</p>
+                    <p>Boil your choice of pasta until it is very soft. Melt oil or butter into drained noodles, add yogurt sauce and chopped avocado or mashed peas. </p>
                 </div>
                 <div>
                     <p>Tasty Lentils</p>
+                    <p>Combine 1 cup water with 1/2 cup lentils, boil till mushy. Add tomato and soften in lentils. Add spices (e.g. tumeric, cumin). Add 1-2 TBSP butter or oil and serve warm. </p>
                 </div>
                 <div>
-                    <p>Veggie Muffins</p>
+                    <p>Yogurt with Banana and nut sauce</p>
+                    <p>Rip ripe banana into pieces, sprinkle with hemp hearts and nut sauce. Add to yogurt or infant cereal. Serve fresh.</p>
                 </div>
                 <div>
-                    <p>Eggs'n'Things</p>
+                    <p>Veggie frittata</p>
+                    <p>Mix an egg, chopped spinach or other veg, and a spoonful of hemp hearts in a bowl. Pour into a heated, oiled pan and cover on medium heat. Steam the frittata for about 2min, flip when browned. Slice into strips or bites. Serve warm.  </p>
                 </div>
                 <div>
-                    <p>Mashed Potatoes</p>
+                    <p>Scrambled Tofu</p>
+                    <p>Chop onion or mushroom and sautee in pan till soft. Add 1/2 cup tofu, tumeric and nutritional yeast. Roughly scramble for 2-3min until tofu is mixed well with veggies and spices. Serve warm.  </p>
                 </div>
                 <div>
-                    <p>Roasty Veg</p>
+                    <p>Roasted Veg</p>
+                    <p>chop sweet potato, squash, onion or other roots or squash into bite sized pieces and toss in oil and spices like basil or rosemary. Roast in the oven at 350deg for 25-30min. Remove when soft. </p>
                 </div>
             </div>
 

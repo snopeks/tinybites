@@ -6,6 +6,7 @@ import Home from './pages/Index.js';
 function App() {
   return (
     <div>
+      <div className="largeYellowCircle"></div>
       <Home/>
     </div>
   );
