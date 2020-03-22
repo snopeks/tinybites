@@ -21,7 +21,9 @@ const routing = (
             <Route path="/resources" component={Resources}/>
             <Route path="/easymeals" component={EasyMeals}/>
             <footer>
-              <p>Website Design &amp; Development by <a href="https://www.snowgillconsulting.com">Snowgill Consulting</a></p>
+              <p>Website by <a href="https://www.snowgillconsulting.com">Snowgill Consulting</a></p>
+              <p>Design consultation by <a href="https://megansnopek.com/copy-of-contact">Megan Snopek</a></p>
+              <p>Tiny Bites, &copy; 2020</p>
             </footer>
         </div>
     </Router>

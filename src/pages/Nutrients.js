@@ -4,7 +4,7 @@ const Nutrients = () => (
     <div className="content">
         <div className="text">
             <h2>0-6 months: Babies need milk</h2>
-            <p>For the first six months of life, babies should only get <b>breastmilk</b> or <b>infant formula</b>. This liquid diet is highly nutritious, absorbable and rich in fats, perfect for their needs. Starting solid foods too early can interfere with their milk intake, which can cause them to be deficient in calories and nutrients because baby digestive systems aren't usually capable of handling solids effectively yet. </p>
+            <p>For the first six months of life, babies should only get <b>breastmilk</b> or <b>infant formula</b> (not cows milk). This liquid diet is highly nutritious, absorbable and rich in fats, perfect for their needs. Starting solid foods too early can interfere with their milk intake, which can cause them to be deficient in calories and nutrients because baby digestive systems aren't usually capable of handling solids effectively yet. </p>
             <h2>6-12 months: Time to add food</h2>
             <p>Babies need breastmilk or infant formula up until 1 year at least, but by 6 months they are ready for the addition of solid food -- Exciting! </p>
             <p>At this time, you should be thinking about the following key nutrients when planning their meals.</p>

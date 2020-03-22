@@ -9,7 +9,7 @@ const Home = () => (
         <div className="text">
             <p>We know you want to feed your baby well and ensure they grow up healthy and strong.</p>
             <p>But it can be confusing to know what's best with the endless conflicting advice you get as new parents! </p>
-            <h3>This site is for parents who want a quick and easy reference to remember key nutrients, easy ingredients, and recommended resources for your baby's meals.</h3>
+            <h3>This site is for parents who want a quick reference to remember <br/>1) key nutrients, <br/> 2) easy meals, and <br/>3) expert resources for baby nutrition.</h3>
         </div>
 
         <div className="container">
