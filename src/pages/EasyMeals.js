@@ -3,7 +3,7 @@ import React from 'react';
 const EasyMeals = () => (
     <div className="content">
         <div className="text">
-            <h2>Baby Led Weaning</h2>
+            <h2 id="MealsPageStart">Baby Led Weaning</h2>
             <p>These meals are based on a philosophy called <i>baby led weaning</i>. Essentially it means we feed babies whole foods (aka not pureeing them).</p>
             <p>As long as the foods are prepared to an age appropriate texture and size, it is no more likely to be a choking hazard than purees!</p>
             <h2>Spears vs Bites</h2>
@@ -20,7 +20,7 @@ const EasyMeals = () => (
             <p>Iron-fortified baby cereal &amp; banana with nut butter</p>
             <p>Pasta with Mashed Peas &amp; Yogurt sauce (legume-based pasta for added iron)</p>
             <p>Butter or oil-sauteed vegetables &amp; nut butter toast</p>
-            <p>Chopped avocado with nut butter sauce, tofu pieces, &amp; raspberries (or any berry on hand, slightly mushed)</p>
+            <p>Chopped avocado with nut butter sauce, tofu pieces, &amp; berries (slightly mushed)</p>
         </div>
         <div className="mealdiv">
             <h3>Nutrition-boosting Toppings and Sides</h3>
@@ -96,6 +96,8 @@ const EasyMeals = () => (
             </div>
 
         </div>
+         <p>To read more from the experts and get more recipe inspiration, checkout my <a href="/resources">Resources page</a></p>
+         <p><a href="#MealsPageStart">Back to top</a></p>
     </div>
 )
 

@@ -1,5 +1,9 @@
 import React from 'react';
 
+const changePage = (path) => {
+    console.log(path)
+    window.location.href = `/${path}`; 
+}
 
 const Home = () => (
     <div className="content">
@@ -13,27 +17,21 @@ const Home = () => (
         </div>
 
         <div className="container">
-            <a href="/nutrients">
-                <div className="section s1">
-                    <div>
-                        <h3>Nutrients</h3>
-                    </div>
+            <div className="section s1" onClick={() => changePage("nutrients")}>
+                <div>
+                    <h3>Nutrients</h3>
                 </div>
-            </a>
-            <a href="/easymeals">
-                <div className="section s2">
-                    <div>
-                        <h3>Meal Ideas</h3>
-                    </div>
+            </div>
+            <div className="section s2" onClick={() => changePage("easymeals")}>
+                <div>
+                    <h3>Meal Ideas</h3>
                 </div>
-            </a>
-            <a href="/resources">
-                <div className="section s3">
-                    <div>
-                        <h3>Resources</h3>
-                    </div>
+            </div>
+            <div className="section s3" onClick={() => changePage("resources")}>
+                <div>
+                    <h3>Resources</h3>
                 </div>
-            </a>
+            </div>
         </div>
     </div>
 

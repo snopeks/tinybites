@@ -11,6 +11,9 @@ a {
   text-decoration: none; 
   color: #373837; 
 }
+a:hover {
+  color:#D6AC56;
+}
 img {
   margin: 40px auto;  
   border: 5px solid #97D3B0; 
@@ -191,6 +194,7 @@ h1, h2, h3, h4 {
 
 .section h3, .nutrients div h3 {
   background-color: #D6AC56; 
+  z-index: 10; 
 }
 .s1{
   background-image: url("https://www.unicef.org/parenting/sites/unicef.org.parenting/files/styles/hero_desktop/public/AdobeStock_166161324.jpeg?itok=w6XMDzoD");
@@ -208,8 +212,7 @@ h1, h2, h3, h4 {
   background-size: cover; 
 }
 .section:hover {
-  background-color: #97D3B0;
-  background-image: none; 
+  box-shadow: 12px 12px #97D3B0;
 }
 .recipeTitle {
   background-color: #D6AC56;
