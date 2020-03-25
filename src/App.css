@@ -58,7 +58,7 @@ h1, h2, h3, h4 {
 }
 .babyImage h2{
   position: absolute; 
-  top: 500px;  
+  top: 530px;  
   margin: 0 10px; 
   padding: 5px; 
   text-align: center; 
@@ -72,7 +72,7 @@ h1, h2, h3, h4 {
   text-align: center; 
   color: white ; 
 }
-/* #373837 */
+
 #header li a:hover{
   font-weight: bold; 
 }
@@ -90,7 +90,24 @@ h1, h2, h3, h4 {
   width: 75%; 
   margin: 0 auto; 
   font-size: 1.2em; 
+  overflow: hidden; 
 }
+.text h3 {
+  animation-duration: 3s; 
+  animation-name: slidein;
+  font-size: 30px;  
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%; 
+    width: 300%; 
+  }
+  to{
+    margin-left: 0%; 
+    width: 100%; 
+  }
+}
+
 .section {
   width: 250px; 
   height: 250px; 
@@ -102,9 +119,16 @@ h1, h2, h3, h4 {
   height: auto;
   text-align: center;
 }
+
+.infoLeft {
+  text-align: left; 
+  border: 2px dashed black; 
+  padding: 10px; 
+  margin: 10px; 
+}
 .mealdiv {
   border: 2px solid #97D3B0;
-  margin: 5px; 
+  margin: 10px; 
 }
 
 .mealdiv h3 {
@@ -253,6 +277,8 @@ footer a:hover{
     top: 100px; 
     right: 70px;
     font-size: 30px; 
+    padding: 10px; 
+    margin: 0; 
   }
   
   .text {

@@ -16,6 +16,7 @@ const Resources = () => (
             <p><a href="https://mylittleeater.com/my-top-6-starter-finger-foods-for-baby-led-weaning/">My Little Eater</a></p>
             <p><a href="https://www.healthlinkbc.ca/healthy-eating/vegetarian-baby-6-12-month">HealthLink BC</a></p>
             <p><a href="https://www.healthyfamiliesbc.ca/home/blog/introducing-solids-your-baby-look-baby-led-weaning">Healthy Families BC</a></p>
+            <p><a href="https://www.webmd.com/parenting/baby/introducing-new-foods#1">WebMD Baby Allergies</a></p>
         </div>
     </div>
 )

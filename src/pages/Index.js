@@ -11,9 +11,9 @@ const Home = () => (
             <h2>Feeding your baby just got easier!</h2>
         </div>
         <div className="text">
-            <p>We know you want to feed your baby well and ensure they grow up healthy and strong.</p>
-            <p>But it can be confusing to know what's best with the endless conflicting advice you get as new parents! </p>
-            <h3>This site is for parents who want a quick reference to remember <br/>1) key nutrients, <br/> 2) easy meals, and <br/>3) expert resources for baby nutrition.</h3>
+            <h3>Tiny Bites offers feeding tips, easy meals, and expert resources for baby nutrition.</h3>
+            <p>All the essential research on important nutrients, tackling allergenic foods, baby lead weaning, food safety tips, and healthy recipes for your baby!</p>
+            <p>Check out the links below to explore these tasty tidbits of information.</p>
         </div>
 
         <div className="container">
