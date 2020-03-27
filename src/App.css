@@ -79,7 +79,7 @@ h1, h2, h3, h4 {
 .container {
   display: grid; 
   justify-items: center; 
-  grid-row-gap: 10px; 
+  grid-row-gap: 25px; 
   grid-column-gap: 10px; 
 
 }
@@ -87,25 +87,11 @@ h1, h2, h3, h4 {
   padding: 30px; 
 }
 .text {
-  width: 75%; 
   margin: 0 auto; 
   font-size: 1.2em; 
-  overflow: hidden; 
 }
 .text h3 {
-  animation-duration: 3s; 
-  animation-name: slidein;
   font-size: 30px;  
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%; 
-    width: 300%; 
-  }
-  to{
-    margin-left: 0%; 
-    width: 100%; 
-  }
 }
 
 .section {
@@ -122,32 +108,41 @@ h1, h2, h3, h4 {
 
 .infoLeft {
   text-align: left; 
-  border: 2px dashed black; 
-  padding: 10px; 
-  margin: 10px; 
+  border: 2px solid black; 
+  box-shadow: 12px 12px #97D3B0;
+  padding: 20px; 
+  margin-bottom: 20px;  
+}
+.infoLeft h2{
+  text-align: left; 
 }
 .mealdiv {
   border: 2px solid #97D3B0;
-  margin: 10px; 
+  margin-bottom: 20px; 
 }
 
-.mealdiv h3 {
+
+.mealdiv h2 {
   background-color: #97D3B0; ; 
+}
+.mealdiv p {
+  padding: 20px; 
+  font-size: 20px; 
 }
 #resourceLinks p{
   text-align: center; 
 }
 #resourceLinks a:hover {
-  font-size: 15px; 
+  font-size: 18px; 
   font-weight: bold; 
   color: #22A47B; 
 }
 .nutrients div {
-  background-color: #97D3B0;
+  border: 2px solid black; 
   height: auto; 
   width: 90%;  
   text-align: left;
-  box-shadow: 3px 3px 4px #DDD6CB;
+  box-shadow: 12px 12px #97D3B0;
 }
 .nutrients div p, .nutrients div li {
   padding: 15px; 
@@ -218,7 +213,6 @@ h1, h2, h3, h4 {
 
 .section h3, .nutrients div h3 {
   background-color: #D6AC56; 
-  z-index: 10; 
 }
 .s1{
   background-image: url("https://www.unicef.org/parenting/sites/unicef.org.parenting/files/styles/hero_desktop/public/AdobeStock_166161324.jpeg?itok=w6XMDzoD");
@@ -261,6 +255,11 @@ footer a:hover{
   .container {
     grid-template-columns: 30% 30% 30%; 
     justify-content: center; 
+    grid-row-gap: 25px; 
+    grid-column-gap: 20px; 
+  }
+  p {
+    font-size: 20px; 
   }
   #header {
     height: 160px;

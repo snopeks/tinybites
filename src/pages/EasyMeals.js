@@ -10,7 +10,7 @@ const EasyMeals = () => (
             </div>
             <div className="infoLeft">
                 <h2>Safety First</h2>
-                <p>Do not serve firm foods like raw apples or carrot sticks: these are dangerous choking hazards and should be steamed or cooked to a soft texture.</p>
+                <p>Do not serve hard foods like raw apples or carrot sticks: these are dangerous choking hazards and should be steamed or cooked to a soft texture.</p>
                 <p>Lightly squish foods like peas or berries that are naturally rounded to reduce their choking potential.</p>
                 <p>Whole nuts are a choking hazard and should not be served to children younger than 4 years old.</p>
             </div>
@@ -23,14 +23,14 @@ const EasyMeals = () => (
             <div className="infoLeft">
                 <h2>Spears vs Bites</h2>
                 <p>When your baby first starts eating, they typically have a <b>"palmer's"</b> grasp and hold food in their entire palm. Cut food into <b>spears for palmer's grasp</b>.</p>
-                <p>After a while they learn a <b>"pincer"</b> grasp, which is holding food between the thumb and forefinger. Cut food into <b>small bites for pincer grasp</b>. No bigger than a chickpea</p>
+                <p>After a while they learn a <b>"pincer"</b> grasp, which is holding food between the thumb and forefinger. Cut food into <b>small bites for pincer grasp</b>. Around the size of a chickpea.</p>
                 <p>Allow your child to choose how much to eat. Every baby has their own appetite level, and in most cases we can trust them to decide when they are full.</p>
             </div>
             <p><i>If you have any concerns about your baby's growth, health or nutrition, please discuss with your health care provider!</i></p>
         </div>
         <div className="mealdiv">
-            <h3>Meal basics</h3>
-            <h4>Simple go-to options for busy parents</h4>
+            <h2>Meal basics</h2>
+            <h3>Simple go-to options for busy parents</h3>
             <p>Hardboiled egg with avocado pieces, sprinkled with hemp hearts</p>
             <p>Chickpea porridge and sauteed vegetables</p>
             <p>Iron-fortified baby cereal &amp; banana with nut butter</p>
@@ -39,7 +39,7 @@ const EasyMeals = () => (
             <p>Chopped avocado with nut butter sauce, tofu pieces, &amp; berries</p>
         </div>
         <div className="mealdiv">
-            <h3>Nutrition-boosting Toppings and Sides</h3>
+            <h2>Nutrition-boosting Toppings and Sides</h2>
             <div className="container ">
                 <p>Nutritional Yeast (b vitamins)</p>
                 <p>Hemp hearts (omega 3s, protein, iron)</p>
@@ -50,24 +50,24 @@ const EasyMeals = () => (
             </div>
         </div>
         <div className="mealdiv">
-            <h3>Healthy Sauces</h3>
+            <h2>Healthy Sauces</h2>
             <div className="container ">
                 <div>
-                    <h4>Nut butter sauce</h4>    
+                    <h3>Nut butter sauce</h3>    
                     <p>Combine 1-2 tsp of nut butter with 1-2 tsp of oil to thin, then drizzle on whatever foods you are serving. </p>
                 </div>
                 <div>
-                    <h4>Yogurt sauce</h4>
-                    <p>Combine 1-2 TBSP of 4%+ M.F. yogurt with 1 TBSP soft tofu, add 1/4 tsp coriander, mix till mostly smooth and enjoy on pasta or vegetables.</p>
+                    <h3>Yogurt sauce</h3>
+                    <p>Combine 1-2 tbsp of 4%+ M.F. yogurt with 1 tbsp soft tofu, add 1/4 tsp coriander, mix till mostly smooth and enjoy on pasta or vegetables.</p>
                 </div>
                 <div>
-                    <h4>Cheeze sauce</h4>
-                    <p>Mix 1 TBSP nutritional yeast with 1 TBSP plain yogurt, 1 tsp onion powder, 1 tsp garlic powder, 1/4 tsp tumeric. Let sit for 5-10min to marinate then add to foods. </p>
+                    <h3>Cheeze sauce</h3>
+                    <p>Mix 1 tbsp nutritional yeast with 1 tbsp plain yogurt, 1 tsp onion powder, 1 tsp garlic powder, 1/4 tsp tumeric. Let sit for 5-10min to marinate then add to foods. </p>
                 </div>
             </div>
         </div>
         <div className="mealdiv">
-            <h3>Healthy Recipes in 10-30min</h3>
+            <h2>Healthy Recipes in 10-30min</h2>
             <div className="container ">
                 <div>
                     <p className="recipeTitle">Baby Pancakes</p>
@@ -87,7 +87,7 @@ const EasyMeals = () => (
                 </div>
                 <div>
                     <p className="recipeTitle">Tasty Lentils</p>
-                    <p>Combine 1 cup water with 1/2 cup lentils, boil till mushy. Add tomato and soften in lentils. Add spices (e.g. tumeric, cumin). Add 1-2 TBSP butter or oil and serve warm. </p>
+                    <p>Combine 1 cup water with 1/2 cup lentils, boil till mushy. Add tomato and soften in lentils. Add spices (e.g. tumeric, cumin). Add 1-2 tbsp butter or oil and serve warm. </p>
                 </div>
                 <div>
                     <p className="recipeTitle">Banana Nut Yogurt</p>
