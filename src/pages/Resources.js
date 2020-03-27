@@ -7,7 +7,7 @@ const Resources = () => (
             <p>Here are some of my favorite baby feeding resources.</p>
             <p>Don't just take my word for it, read up on this subject yourself, that way you'll feel confident from the inside out!</p>
         </div>
-        <div id="resourceLinks">
+        <div id="resourceLinks" className="infoLeft">
             <p><a href="https://plantbasedjuniors.com/">Plant-Based Juniors</a></p>
             <p><a href="https://www.instagram.com/plantbasedjuniors/">@plantbasedjuniors</a></p>
             <p><a href="https://newwaysnutrition.com/">New Ways Nutrition</a></p>
