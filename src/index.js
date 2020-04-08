@@ -6,7 +6,7 @@ import App from './App';
 import About from './pages/About';
 import EasyMeals from './pages/EasyMeals';
 import Resources from './pages/Resources';
-import Nutrients from './pages/Nutrients';
+import Nutrition from './pages/Nutrition';
 import Header from './components/header';
 import * as serviceWorker from './serviceWorker';
 
@@ -16,7 +16,7 @@ const routing = (
         <div className="App">
             <Header/>
             <Route exact path="/" component={App}/>
-            <Route path="/nutrients" component={Nutrients}/>
+            <Route path="/nutrition" component={Nutrition}/>
             <Route path="/about" component={About}/>
             <Route path="/resources" component={Resources}/>
             <Route path="/easymeals" component={EasyMeals}/>
