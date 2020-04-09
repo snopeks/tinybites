@@ -10,7 +10,7 @@ const Home = () => (
         <div className="babyImage">
             <h2>Feeding your baby just got easier!</h2>
         </div>
-        <div className="text">
+        <div id="homePage" className="text">
             <h2>Welcome to Tiny Bites!</h2>
             <p>Tiny Bites offers feeding tips, easy meals, and expert resources for baby nutrition.</p>
             <p>Here you can find all the essential research on <b>important nutrients</b>, tackling <b>allergenic foods, baby lead weaning, food safety tips</b>, and <b>healthy recipes</b> for your baby!</p>
@@ -36,7 +36,7 @@ const Home = () => (
                 <div className="s3"></div>
                 <div>
                     <h3>Resources</h3>
-                    <p>A list of nutritionists' websites and social media accounts so you can read and validate the research.</p>
+                    <p>A list of nutritionists and government health websites to learn from.</p>
                 </div>
             </div>
         </div>

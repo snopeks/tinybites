@@ -20,17 +20,18 @@ const Nutrients = () => (
             <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients!</p>
             <p>For a general goal, the best advice I've read is to provide <br/><b>one iron, fat and fruit/veg source per meal</b>.</p>
         </div>
+        <h2>Powerhouse foods</h2>
+        <div>
+            <p><b>Eggs:</b> iron, protein, B12, Omega3s</p>
+            <p><b>Tofu:</b> iron, protein, Omega3s, calcium</p>
+            <p><b>Nut butters:</b> iron, protein, fat, zinc</p>
+            <p><b>Beans/Peas/Lentils:</b> iron, protein, calcium, zinc</p>
+            <p><b>Cheese/Yogurt:</b> protein, fat, B12, calcium, zinc</p>
+        </div>
+        <h2>Key Nutrients</h2>
         <div className="nutrients container">
             <div>
-                <h3>Powerhouse foods</h3>
-                <p><b>Eggs:</b> iron, protein, B12, Omega3s</p>
-                <p><b>Tofu:</b> iron, protein, Omega3s, calcium</p>
-                <p><b>Nut butters:</b> iron, protein, fat, zinc</p>
-                <p><b>Beans/Peas/Lentils:</b> iron, protein, calcium, zinc</p>
-                <p><b>Cheese/Yogurt:</b> protein, fat, B12, calcium, zinc</p>
-            </div>
-            <div>
-                <h3>Iron</h3>
+                <h3 className="nutrientHeader">Iron</h3>
                 <ul>
                     <li>fortified cereals</li>
                     <li>beans, peas and lentils</li>
@@ -38,11 +39,10 @@ const Nutrients = () => (
                     <li>eggs</li>
                     <li>thinly spread nut butters</li>
                 </ul>
-                <p>Combining iron with a vitamin C source increases iron absorption by up to 5x!</p>
-                <p>e.g. citrus fruits, sweet potatoes, peppers, melons, kiwi and more.</p>
+                <p>Combining iron with a vitamin C source (e.g. citrus fruits) increases iron absorption by up to 5x!</p>
             </div>
             <div>
-                <h3>Protein</h3>
+                <h3 className="nutrientHeader">Protein</h3>
                 <ul>
                     <li>breastmilk</li>
                     <li>infant formula</li>
@@ -55,7 +55,7 @@ const Nutrients = () => (
                 </ul>
             </div>
             <div>
-                <h3>Fat</h3>
+                <h3 className="nutrientHeader">Fat</h3>
                 <ul>
                     <li>breastmilk</li>
                     <li>infant formula</li>
@@ -67,7 +67,7 @@ const Nutrients = () => (
                 </ul>
             </div>
             <div>
-                <h3>Omega-3 Fats</h3>
+                <h3 className="nutrientHeader">Omega-3 Fats</h3>
                 <ul>
                     <li>breastmilk</li>
                     <li>infant formula</li>
@@ -78,7 +78,7 @@ const Nutrients = () => (
                 </ul>
             </div>
             <div>
-                <h3>Vitamin B12</h3>
+                <h3 className="nutrientHeader">Vitamin B12</h3>
                 <ul>
                     <li>eggs</li>
                     <li>cheese and yogurt</li>
@@ -87,14 +87,14 @@ const Nutrients = () => (
                 <p>Please note that breastmilk may not provide enough B12. </p>
             </div>
             <div>
-                <h3>Vitamin D</h3>
+                <h3 className="nutrientHeader">Vitamin D</h3>
                 <ul>
                     <li>infant formula</li>
                 </ul>
                 <p>It is recommended that breastfed babies are given a supplement of 400UI per day.</p>
             </div>
             <div>
-                <h3>Calcium</h3>
+                <h3 className="nutrientHeader">Calcium</h3>
                 <ul>
                     <li>breastmilk</li>
                     <li>infant formula</li>
@@ -105,7 +105,7 @@ const Nutrients = () => (
                 </ul>
             </div>
             <div>
-                <h3>Zinc</h3>
+                <h3 className="nutrientHeader">Zinc</h3>
                 <ul>
                     <li>breastmilk</li>
                     <li>infant formula</li>
