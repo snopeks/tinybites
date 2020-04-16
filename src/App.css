@@ -137,18 +137,20 @@ h1, h2, h3, h4 {
   padding: 20px; 
   font-size: 20px; 
 }
-#resourceLinks p{
-  text-align: center; 
+
+.resourceLinks {
+  display: grid; 
+  grid-template-columns: 25px 200px; 
+  grid-row-gap: 20px; 
 }
-#resourceLinks {
-  width: 80%; 
-  margin: 0 auto; 
+.resourceLinks a {
+  color: #EEAC29;
 }
-#resourceLinks a:hover {
-  font-size: 18px; 
-  font-weight: bold; 
-  color: #22A47B; 
+
+.resourceLinks a:hover {
+  text-decoration: underline;
 }
+
 .nutrients div {
   border-radius: 5px; 
   height: auto; 
