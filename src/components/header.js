@@ -1,15 +1,15 @@
 import React from 'react';
+import logo from '../tinybites-white-words.svg';
 
 
 const Header = () => (
     <div id="header">
         <div id="headerContainer">
-            <div id="headerstarleft"></div>
-            <h1><a href="/">Tiny Bites</a></h1>
-            <div id="headerstarright"></div>
+            <img src={logo} alt="tiny bites logo"></img>
         </div>
         <ul>
-            <li><a href="/nutrients">Baby Nutrition</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/nutrition">Nutrition</a></li>
             <li><a href="/easymeals">Easy Meals</a></li>
             <li><a href="/resources">Resources</a></li>
             <li><a href="/about">About</a></li>
