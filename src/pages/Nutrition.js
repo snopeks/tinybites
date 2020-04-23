@@ -22,8 +22,10 @@ const Nutrients = () => (
                 <p>HOWEVER! Keep in mind that by giving your baby a wide variety of foods, you are most likely hitting these targets already! </p>
             </div>
         </div>
-        <h2>Point being: Don't stress over every meal.</h2>
-        <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients! For a general goal, the best advice I've read is to provide <b>one iron, fat and fruit/veg source per meal</b></p>
+        <div id="feedingTips">
+            <h2>Point being: Don't stress over every meal.</h2>
+            <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients! For a general goal, the best advice I've read is to provide <b>one iron, fat and fruit/veg source per meal</b></p>
+        </div>
         <h2>Powerhouse foods</h2>
         <div>
             <p><b>Eggs:</b> iron, protein, B12, Omega3s</p>

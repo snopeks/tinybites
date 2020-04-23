@@ -84,8 +84,12 @@ h1, h2, h3, h4 {
 }
 
 .eatingImg {
-  width: 300px; 
+  width: 92%;
   justify-self: center; 
+}
+#feedingTips {
+  text-align: left; 
+  padding: 0 4%; 
 }
 .container {
   display: grid; 
@@ -102,7 +106,9 @@ h1, h2, h3, h4 {
 .text {
   margin: 0 auto; 
   font-size: 1.2em;
-  text-align: left;  
+  text-align: left;
+  width: 92%;
+
 }
 .text h2 {
   text-align: center; 
@@ -249,6 +255,10 @@ footer a:hover{
   .eatingImg {
     width: 92%; 
     margin: 20px; 
+  }
+
+  #feedingTips {
+    padding: 0 22px; 
   }
   p {
     font-size: 20px; 
