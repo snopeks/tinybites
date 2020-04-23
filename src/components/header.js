@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../tinybites-white-words.svg';
+import logo from '../logo-white-words.svg';
 
 
 const Header = () => (
