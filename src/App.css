@@ -77,6 +77,16 @@ h1, h2, h3, h4 {
 #header li a:hover{
   font-weight: bold; 
 }
+.smallcontainer {
+  display: grid; 
+  justify-items: left; 
+  grid-template-columns: 100%;
+}
+
+.eatingImg {
+  width: 300px; 
+  justify-self: center; 
+}
 .container {
   display: grid; 
   justify-items: left; 
@@ -232,6 +242,13 @@ footer a:hover{
     grid-template-columns: 30% 30% 30%; 
     justify-content: center; 
     grid-row-gap: 25px;  
+  }
+  .smallcontainer {
+    grid-template-columns: 50% 50%;
+  }
+  .eatingImg {
+    width: 92%; 
+    margin: 20px; 
   }
   p {
     font-size: 20px; 
