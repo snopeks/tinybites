@@ -77,6 +77,25 @@ h1, h2, h3, h4 {
 #header li a:hover{
   font-weight: bold; 
 }
+.smallcontainer {
+  display: grid; 
+  justify-items: left; 
+  grid-template-columns: 100%;
+}
+
+.eatingImg {
+  width: 92%;
+  justify-self: center; 
+}
+#feedingTips {
+  text-align: left; 
+  padding: 0 4%; 
+}
+.centerHighlight {
+  text-align: center; 
+  font-weight: normal; 
+  margin: 60px; 
+}
 .container {
   display: grid; 
   justify-items: left; 
@@ -89,13 +108,15 @@ h1, h2, h3, h4 {
 .content {
   padding: 30px; 
 }
+.content h1 {
+  text-align: center; 
+}
 .text {
   margin: 0 auto; 
   font-size: 1.2em;
-  text-align: left;  
-}
-.text h2 {
-  text-align: center; 
+  text-align: left;
+  width: 92%;
+
 }
 #homePage {
   text-align: center; 
@@ -116,9 +137,6 @@ h1, h2, h3, h4 {
 
 .infoLeft {
   text-align: left; 
-  border: 2px solid black; 
-  box-shadow: 12px 12px #97D3B0;
-  padding: 20px; 
   margin-bottom: 20px;  
 }
 .infoLeft h2{
@@ -232,6 +250,17 @@ footer a:hover{
     grid-template-columns: 30% 30% 30%; 
     justify-content: center; 
     grid-row-gap: 25px;  
+  }
+  .smallcontainer {
+    grid-template-columns: 50% 50%;
+  }
+  .eatingImg {
+    width: 92%; 
+    margin: 20px; 
+  }
+
+  #feedingTips {
+    padding: 0 22px; 
   }
   p {
     font-size: 20px; 
