@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => (
     <div className="content"> 
-        <h2>About Tiny Bites</h2>
+        <h2 className="pageTitle">About</h2>
         <div className="aboutcontainer">
             <img className="aboutImg" src={stephbaby} alt="steph and baby"></img>
             <div className="text">

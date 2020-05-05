@@ -3,7 +3,7 @@ import nursingImg from '../nursing-photo.jpeg';
 import babyEatingImg from '../baby-eating.jpeg';
 const Nutrients = () => (
     <div className="content">
-        <h2>Nutrition</h2>
+        <h2 className="pageTitle">Nutrition</h2>
         <h1>When to feed what?</h1>
         <div className="smallcontainer">
             <img src={nursingImg} className="eatingImg"></img>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const EasyMeals = () => (
     <div className="content">
-        <h3>Meals</h3>
+        <h2 className="pageTitle">Meals</h2>
         <div className="text">
             <h1>Before you start...</h1>
             <h2>Safety First</h2>
