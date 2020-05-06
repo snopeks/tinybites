@@ -3,7 +3,7 @@ import nursingImg from '../nursing-photo.jpeg';
 import babyEatingImg from '../baby-eating.jpeg';
 const Nutrients = () => (
     <div className="content">
-        <h2>Nutrition</h2>
+        <h2 className="pageTitle">Nutrition</h2>
         <h1>When to feed what?</h1>
         <div className="smallcontainer">
             <img src={nursingImg} className="eatingImg"></img>
@@ -23,7 +23,7 @@ const Nutrients = () => (
             </div>
         </div>
         <div id="feedingTips">
-            <h2>Point being: Don't stress over every meal.</h2>
+            <h2>Don't stress over every meal. Focus on food diversity!</h2>
             <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients! For a general goal, the best advice I've read is to provide <b>one iron, fat and fruit/veg source per meal</b></p>
         </div>
         <h2>Powerhouse foods</h2>

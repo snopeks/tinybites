@@ -4,8 +4,8 @@ import webicon from '../icon_website.svg';
 
 const Resources = () => (
     <div className="content">
+        <h2 className="pageTitle">Resources</h2>
         <div className="text">
-            <h2>Resources</h2>
             <p>The best way to develop confidence in feeding your baby is by learning from the experts.</p>
             <p>Here are just a few of my favorite baby feeding resources.</p>
         </div>
