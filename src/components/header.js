@@ -5,7 +5,7 @@ import logo from '../logo-white-words.svg';
 const Header = () => (
     <div id="header">
         <div id="headerContainer">
-            <img src={logo} alt="tiny bites logo"></img>
+            <a href="/"><img src={logo} alt="tiny bites logo"></img></a>
         </div>
         <ul>
             <li><a href="/">Home</a></li>

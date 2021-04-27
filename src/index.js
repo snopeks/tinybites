@@ -7,6 +7,7 @@ import About from './pages/About';
 import EasyMeals from './pages/EasyMeals';
 import Resources from './pages/Resources';
 import Nutrition from './pages/Nutrition';
+import Safety from './pages/Safety';
 import Header from './components/header';
 import * as serviceWorker from './serviceWorker';
 
@@ -20,6 +21,7 @@ const routing = (
             <Route path="/about" component={About}/>
             <Route path="/resources" component={Resources}/>
             <Route path="/easymeals" component={EasyMeals}/>
+            <Route path="/safety" component={Safety}/>
             <footer>
               <p>Website by <a href="https://www.snowgillconsulting.com">Snowgill Consulting</a></p>
               <p>Design consultation by <a href="https://megansnopek.com/copy-of-contact">Megan Snopek</a></p>
