@@ -13,7 +13,12 @@ const Home = () => (
         <div id="homePage" className="text">
             <h2>Welcome to Tiny Bites!</h2>
             <p>Tiny Bites offers feeding tips, easy meals, and expert resources for baby nutrition.</p>
-            <p>Here you can find all the essential research on <b>important nutrients</b>, tackling <b>allergenic foods, baby lead weaning, food safety tips</b>, and <b>healthy recipes</b> for your baby!</p>
+            <p>Here you can find all the essential research on <b>important nutrients</b>, tackling <b>allergenic foods, food safety tips</b>, and <b>healthy recipes</b> for your baby!</p>
+            <div>
+                <h2>Baby Led Weaning</h2>
+                <p>These meals are based on a philosophy called <i>baby led weaning</i>. Essentially it means we feed babies whole foods (instead of pureeing them).</p>
+                <p>As long as the foods are prepared to an age appropriate texture and size, it is no more likely to be a choking hazard than purees!</p>
+            </div>
             <h3>Check out the links below to explore these tasty tidbits of information.</h3>
         </div>
 
