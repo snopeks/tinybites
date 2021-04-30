@@ -46,7 +46,8 @@ const Safety = () => (
             <div className="infoLeft">
                 <h3>Spears vs Bites</h3>
                 <p>When your baby first starts eating, they typically have a <b>"palmer's"</b> grasp and hold food in their entire palm. Cut food into <b>spears for palmer's grasp</b>.</p>
-                <p>After a while they learn a <b>"pincer"</b> grasp, which is holding food between the thumb and forefinger. Cut food into <b>small bites for pincer grasp</b>. Around the size of a chickpea.</p>
+                <p>After a while they learn a <b>"pincer"</b> grasp, which is holding food between the thumb and forefinger. Cut food into <b>small bites for pincer grasp</b>. Around the size of a chickpea to start.</p>
+                <p>As you see your child gain skills and confidence in eating, </p>
                 <p>Allow your child to choose how much to eat. Every baby has their own appetite level, and in most cases we can trust them to decide when they are full.</p>
             </div>
             <h2 className="centerHighlight">If you have any concerns about your baby's growth, health or safety, please discuss with your health care provider!</h2>

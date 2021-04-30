@@ -35,6 +35,51 @@ const Nutrients = () => (
             <p><b>Beans/Peas/Lentils:</b> iron, protein, calcium, zinc</p>
             <p><b>Cheese/Yogurt:</b> protein, fat, B12, calcium, zinc</p>
         </div>
+        <div className="powerhouseContainer">
+            <div>content</div>
+            <div>Eggs</div>
+            <div>Tofu</div>
+            <div>Nut Butters</div>
+            <div>Beans/Peas/Lentils</div>
+            <div>Cheese/Yogurt</div>
+            <div>Iron</div>
+            <div>Protein</div>
+            <div>Fat</div>
+            <div>Omega-3 fats</div>
+            <div>B12</div>
+            <div>Vitamin D</div>
+            <div>Calcium</div>
+            <div>Zinc</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+
+        </div>
         <h2>Key Nutrients</h2>
         <div className="nutrients container">
             <div>

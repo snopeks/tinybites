@@ -18,6 +18,8 @@ a:hover {
   width: 300px; 
   margin-top: 100px; 
   margin-bottom: 50px; 
+  border-radius: 5px; 
+  box-shadow: 12px 12px #FFD985;
 }
 
 p, li {
@@ -93,6 +95,8 @@ h1, h2, h3, h4 {
 .eatingImg {
   width: 92%;
   justify-self: center; 
+  border-radius: 5px; 
+  box-shadow: 12px 12px #FFD985;
 }
 #feedingTips {
   text-align: left; 
