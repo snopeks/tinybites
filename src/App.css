@@ -191,14 +191,16 @@ h1, h2, h3, h4 {
 }
 .powerhouseContainer {
   width: 75%; 
-  margin: 50px auto; 
+  margin: auto; 
   justify-content: center; 
   align-content: center; 
   display: grid; 
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; 
   grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%; 
   justify-items: center; 
-  gap: 10px 10px; 
+}
+.powerhouseContainer p {
+  font-size: 1em; 
 }
 
 #food1 {

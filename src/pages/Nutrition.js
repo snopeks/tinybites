@@ -37,18 +37,18 @@ const Nutrients = () => (
         <h2>Powerhouse foods</h2>
         <div className="powerhouseContainer">
             <div></div>
-            <div id="food1">Eggs</div>
-            <div id="food2">Tofu</div>
-            <div id="food3">Nut Butters</div>
-            <div id="food4">Beans/Peas/Lentils</div>
-            <div id="food5">Cheese/Yogurt</div>
-            <div id="nut1">Iron</div>
-            <div id="nut2">Protein</div>
-            <div id="nut3">Fat</div>
-            <div id="nut4">Omega-3 fats</div>
-            <div id="nut5">B12</div>
-            <div id="nut6">Calcium</div>
-            <div id="nut7">Zinc</div>
+            <div id="food1"><p>Eggs</p></div>
+            <div id="food2"><p>Tofu</p></div>
+            <div id="food3"><p>Nut Butters</p></div>
+            <div id="food4"><p>Beans/Peas/Lentils</p></div>
+            <div id="food5"><p>Cheese/Yogurt</p></div>
+            <div id="nut1"><p>Iron</p></div>
+            <div id="nut2"><p>Protein</p></div>
+            <div id="nut3"><p>Fat</p></div>
+            <div id="nut4"><p>Omega-3 fats</p></div>
+            <div id="nut5"><p>B12</p></div>
+            <div id="nut6"><p>Calcium</p></div>
+            <div id="nut7"><p>Zinc</p></div>
             <div>x</div>
             <div>x</div>
             <div></div>
