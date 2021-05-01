@@ -27,7 +27,6 @@ const Nutrients = () => (
             
             <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients! For a general goal, the best advice I've read is to provide <b>one iron, fat and fruit/veg source per meal</b></p>
         </div>
-        <h2>Powerhouse foods</h2>
         <div>
             <p><b>Eggs:</b> iron, protein, B12, Omega3s</p>
             <p><b>Tofu:</b> iron, protein, Omega3s, calcium</p>
@@ -35,50 +34,60 @@ const Nutrients = () => (
             <p><b>Beans/Peas/Lentils:</b> iron, protein, calcium, zinc</p>
             <p><b>Cheese/Yogurt:</b> protein, fat, B12, calcium, zinc</p>
         </div>
+        <h2>Powerhouse foods</h2>
         <div className="powerhouseContainer">
-            <div>content</div>
-            <div>Eggs</div>
-            <div>Tofu</div>
-            <div>Nut Butters</div>
-            <div>Beans/Peas/Lentils</div>
-            <div>Cheese/Yogurt</div>
-            <div>Iron</div>
-            <div>Protein</div>
-            <div>Fat</div>
-            <div>Omega-3 fats</div>
-            <div>B12</div>
-            <div>Vitamin D</div>
-            <div>Calcium</div>
-            <div>Zinc</div>
+            <div></div>
+            <div id="food1">Eggs</div>
+            <div id="food2">Tofu</div>
+            <div id="food3">Nut Butters</div>
+            <div id="food4">Beans/Peas/Lentils</div>
+            <div id="food5">Cheese/Yogurt</div>
+            <div id="nut1">Iron</div>
+            <div id="nut2">Protein</div>
+            <div id="nut3">Fat</div>
+            <div id="nut4">Omega-3 fats</div>
+            <div id="nut5">B12</div>
+            <div id="nut6">Calcium</div>
+            <div id="nut7">Zinc</div>
+            <div>x</div>
+            <div>x</div>
+            <div></div>
+            <div>x</div>
+            <div>x</div>
+            <div></div>
+            <div></div>
+            
+            <div>x</div>
+            <div>x</div>
+            <div></div>
+            <div>x</div>
+            <div></div>
+            <div>x</div>
+            <div></div>
+            
+            <div>x</div>
+            <div>x</div>
+            <div>x</div>
             <div></div>
             <div></div>
             <div></div>
+            <div>x</div>
+            
+            <div>x</div>
+            <div>x</div>
             <div></div>
             <div></div>
             <div></div>
+            <div>x</div>
+            <div>x</div>
+            
+            <div></div>
+            <div>x</div>
+            <div>x</div>
             <div></div>
             <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-
-
+            <div>x</div>
+            <div>x</div>
         </div>
         <h2>Key Nutrients</h2>
         <div className="nutrients container">

@@ -189,6 +189,33 @@ h1, h2, h3, h4 {
 .nutrients div p, .nutrients div li {
   padding: 15px; 
 }
+.powerhouseContainer {
+  width: 75%; 
+  margin: 50px auto; 
+  justify-content: center; 
+  align-content: center; 
+  display: grid; 
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; 
+  grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%; 
+  justify-items: center; 
+  gap: 10px 10px; 
+}
+
+#food1 {
+  grid-row-start: 2; 
+}
+#food2 {
+  grid-row-start: 3; 
+}
+#food3 {
+  grid-row-start: 4; 
+}
+#food4 {
+  grid-row-start: 5; 
+}
+#food5 {
+  grid-row-start: 6; 
+}
 .nutrientHeader {
   background: #4A8076;
   text-align: center; 
