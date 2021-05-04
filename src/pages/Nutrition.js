@@ -6,7 +6,7 @@ const Nutrients = () => (
         <h2 className="pageTitle">Nutrition</h2>
         <h1>When to feed what?</h1>
         <div className="smallcontainer">
-            <img src={nursingImg} className="eatingImg"></img>
+            <img src={nursingImg} className="eatingImg" alt="baby nursing"></img>
             <div className="text">
                 <h2>0-6 months: Babies need milk</h2>
                 <p>For the first six months of life, babies should only get <b>breastmilk</b> or <b>infant formula</b> (not cows milk). This liquid diet is highly nutritious, absorbable and rich in fats, perfect for their needs.</p>
@@ -14,7 +14,7 @@ const Nutrients = () => (
             </div>
         </div>
         <div className="smallcontainer">
-            <img src={babyEatingImg} className="eatingImg"></img>
+            <img src={babyEatingImg} className="eatingImg" alt="baby eating"></img>
             <div className="text">
                 <h2>6-12 months: Time to add food</h2>
                 <p>Babies need breastmilk or infant formula up until 1 year at least, but by 6 months they are ready for the addition of solid food -- Exciting! </p>
