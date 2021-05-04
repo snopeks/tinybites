@@ -6,33 +6,88 @@ const Nutrients = () => (
         <h2 className="pageTitle">Nutrition</h2>
         <h1>When to feed what?</h1>
         <div className="smallcontainer">
-            <img src={nursingImg} className="eatingImg"></img>
+            <img src={nursingImg} className="eatingImg" alt="baby nursing"></img>
             <div className="text">
                 <h2>0-6 months: Babies need milk</h2>
                 <p>For the first six months of life, babies should only get <b>breastmilk</b> or <b>infant formula</b> (not cows milk). This liquid diet is highly nutritious, absorbable and rich in fats, perfect for their needs.</p>
-                <p>Starting solid foods too early can interfere with their milk intake, which can cause them to be deficient in calories and nutrients because baby digestive systems aren't usually capable of handling solids effectively yet.</p>
+                <p>Starting solid foods too early can interfere with their milk intake, which can cause them to be deficient in calories and nutrients because baby digestive systems usually aren't  capable of handling solids effectively yet.</p>
             </div>
         </div>
         <div className="smallcontainer">
-            <img src={babyEatingImg} className="eatingImg"></img>
+            <img src={babyEatingImg} className="eatingImg" alt="baby eating"></img>
             <div className="text">
                 <h2>6-12 months: Time to add food</h2>
                 <p>Babies need breastmilk or infant formula up until 1 year at least, but by 6 months they are ready for the addition of solid food -- Exciting! </p>
                 <p>At this time, you should be prioritizing iron and several other key nutrients when planning their meals.</p>
                 <p>HOWEVER! Keep in mind that by giving your baby a wide variety of foods, you are most likely hitting these targets already! </p>
+                <h2>Don't stress over every meal. Focus on food diversity!</h2>
             </div>
         </div>
         <div id="feedingTips">
-            <h2>Don't stress over every meal. Focus on food diversity!</h2>
+            
             <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients! For a general goal, the best advice I've read is to provide <b>one iron, fat and fruit/veg source per meal</b></p>
         </div>
-        <h2>Powerhouse foods</h2>
         <div>
             <p><b>Eggs:</b> iron, protein, B12, Omega3s</p>
             <p><b>Tofu:</b> iron, protein, Omega3s, calcium</p>
             <p><b>Nut butters:</b> iron, protein, fat, zinc</p>
             <p><b>Beans/Peas/Lentils:</b> iron, protein, calcium, zinc</p>
             <p><b>Cheese/Yogurt:</b> protein, fat, B12, calcium, zinc</p>
+        </div>
+        <h2>Powerhouse foods</h2>
+        <div className="powerhouseContainer">
+            <div></div>
+            <div id="food1"><p>Eggs</p></div>
+            <div id="food2"><p>Tofu</p></div>
+            <div id="food3"><p>Nut Butters</p></div>
+            <div id="food4"><p>Beans/Peas/Lentils</p></div>
+            <div id="food5"><p>Cheese/Yogurt</p></div>
+            <div id="nut1"><p>Iron</p></div>
+            <div id="nut2"><p>Protein</p></div>
+            <div id="nut3"><p>Fat</p></div>
+            <div id="nut4"><p>Omega-3 fats</p></div>
+            <div id="nut5"><p>B12</p></div>
+            <div id="nut6"><p>Calcium</p></div>
+            <div id="nut7"><p>Zinc</p></div>
+            <div>x</div>
+            <div>x</div>
+            <div></div>
+            <div>x</div>
+            <div>x</div>
+            <div></div>
+            <div></div>
+            
+            <div>x</div>
+            <div>x</div>
+            <div></div>
+            <div>x</div>
+            <div></div>
+            <div>x</div>
+            <div></div>
+            
+            <div>x</div>
+            <div>x</div>
+            <div>x</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>x</div>
+            
+            <div>x</div>
+            <div>x</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>x</div>
+            <div>x</div>
+            
+            <div></div>
+            <div>x</div>
+            <div>x</div>
+            <div></div>
+            <div></div>
+            <div>x</div>
+            <div>x</div>
         </div>
         <h2>Key Nutrients</h2>
         <div className="nutrients container">
