@@ -36,19 +36,19 @@ const Nutrients = () => (
         </div> */}
         <h2>Powerhouse foods</h2>
         <div className="powerhouseContainer">
-            <div></div>
-            <div className="header" id="food1"><p>Eggs</p></div>
-            <div className="header" id="food2"><p>Tofu</p></div>
-            <div className="header" id="food3"><p>Nut Butters</p></div>
-            <div className="header" id="food4"><p>Beans, Peas, Lentils</p></div>
-            <div className="header" id="food5"><p>Cheese &amp; Yogurt</p></div>
-            <div className="header" id="nut1"><p>Iron</p></div>
-            <div className="header" id="nut2"><p>Protein</p></div>
-            <div className="header" id="nut3"><p>Fat</p></div>
-            <div className="header" id="nut4"><p>Omega-3 fats</p></div>
-            <div className="header" id="nut5"><p>B12</p></div>
-            <div className="header" id="nut6"><p>Calcium</p></div>
-            <div className="header" id="nut7"><p>Zinc</p></div>
+            <div className="header"></div>
+            <div className="header" id="food1"><h3>Eggs</h3></div>
+            <div className="header" id="food2"><h3>Tofu</h3></div>
+            <div className="header" id="food3"><h3>Nut Butters</h3></div>
+            <div className="header" id="food4"><h3>Beans, Peas, Lentils</h3></div>
+            <div className="header" id="food5"><h3>Cheese &amp; Yogurt</h3></div>
+            <div className="header" id="nut1"><h3>Iron</h3></div>
+            <div className="header" id="nut2"><h3>Protein</h3></div>
+            <div className="header" id="nut3"><h3>Fat</h3></div>
+            <div className="header" id="nut4"><h3>Omega-3 fats</h3></div>
+            <div className="header" id="nut5"><h3>B12</h3></div>
+            <div className="header" id="nut6"><h3>Calcium</h3></div>
+            <div className="header" id="nut7"><h3>Zinc</h3></div>
             <div><p>&#x2714;</p></div>
             <div><p>&#x2714;</p></div>
             <div></div>
