@@ -80,7 +80,7 @@ h1, h2, h3, h4 {
   display: block; 
   padding: 16px; 
   text-align: center; 
-  color: #0d4c40; 
+  color: #2A6659; 
 }
 
 #header li a:hover{
@@ -198,11 +198,15 @@ h1, h2, h3, h4 {
   align-content: center; 
   justify-items: center; 
   border: 2px solid grey; 
-  /* width: 80%;  */
+  width: 88%; 
   margin: auto; 
 }
 .powerhouseContainer p {
   font-size: 1em; 
+  color: white; 
+}
+.header{
+  background-color: #4A8076;
 }
 
 #food1 {
