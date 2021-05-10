@@ -80,7 +80,7 @@ h1, h2, h3, h4 {
   display: block; 
   padding: 16px; 
   text-align: center; 
-  color: #0d4c40; 
+  color: #2A6659; 
 }
 
 #header li a:hover{
@@ -190,17 +190,23 @@ h1, h2, h3, h4 {
   padding: 15px; 
 }
 .powerhouseContainer {
-  width: 75%; 
-  margin: auto; 
-  justify-content: center; 
-  align-content: center; 
+
   display: grid; 
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; 
   grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%; 
-  justify-items: center; 
+  justify-content: center; 
+  align-content: center; 
+  box-shadow: 0 0 10px lightgrey;
+  width: 88%; 
+  margin: auto; 
 }
-.powerhouseContainer p {
+.header h3 {
   font-size: 1em; 
+  color: white; 
+  font-weight: bold;
+}
+.header{
+  background-color: #4A8076;
 }
 
 #food1 {

@@ -16,7 +16,7 @@ const Home = () => (
             <p>Here you can find all the essential research on <b>important nutrients</b>, tackling <b>allergenic foods, food safety tips</b>, and <b>healthy recipes</b> for your baby!</p>
             <div>
                 <h2>Baby Led Weaning</h2>
-                <p>These research is based on a philosophy called <i>baby led weaning</i>. Essentially it means we feed babies whole foods (instead of pureeing them).</p>
+                <p>This research is based on a philosophy called <i>baby led weaning</i>. Essentially it means we feed babies whole foods (instead of pureeing them).</p>
                 <p>As long as the foods are prepared to an age appropriate texture and size, it is no more likely to be a choking hazard than purees!</p>
             </div>
             <h3>Check out the links below to explore these tasty tidbits of information.</h3>
@@ -34,7 +34,7 @@ const Home = () => (
                 <div className="s2"></div>
                 <div>
                     <h3>Meals</h3>
-                    <p>Learn how to feed your baby safely, plus some easy recipes for parents on-the-go.</p>
+                    <p>Learn how to feed your baby safely, plus some easy recipes for busy parents.</p>
                 </div>
             </div>
             <div className="section" onClick={() => changePage("resources")}>
