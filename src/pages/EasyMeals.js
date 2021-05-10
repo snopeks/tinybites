@@ -4,40 +4,86 @@ const EasyMeals = () => (
     <div className="content">
         <h2 className="pageTitle">Meals</h2>
         <div className="mealdiv">
-            <h2>Meal basics</h2>
+            <h2>Healthy and Quick!</h2>
             <h3>Simple go-to options for busy parents</h3>
-            <p>Hardboiled egg with avocado pieces, sprinkled with hemp hearts</p>
-            <p>Chickpea porridge and sauteed vegetables</p>
+            <p>Cheesebread and sliced fruits</p>
+            <p><a href="#avoToast">Avocado toast</a> and a side of beans</p>
+            <p><a href="#chickpeaPorridge">Chickpea porridge</a> and peas</p>
             <p>Iron-fortified baby cereal &amp; banana with nut butter</p>
             <p>Pasta with Mashed Peas &amp; Yogurt sauce</p>
-            <p>Butter or oil-sauteed vegetables &amp; nut butter toast</p>
             <p>Chopped avocado with nut butter sauce, tofu pieces, &amp; berries</p>
         </div>
         <div className="mealdiv">
             <h2>Nutrition-boosting Toppings and Sides</h2>
             <div className="container ">
-                <p>Nutritional Yeast (b vitamins)</p>
-                <p>Hemp hearts (omega 3s, protein, iron)</p>
-                <p>Chia seeds (omega 3s, protein, fiber, calcium)</p>
-                <p>Flax meal (omega 3s, fiber)</p>
-                <p>Slightly  mashed berries</p>
-                <p>Canned beans, softened or mashed</p>
+                <div>
+                    <p>Nutritional Yeast</p>
+                    <ul>
+                        <li>b vitamins</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Hemp hearts</p>
+                    <ul>
+                        <li>omega 3s, protein, iron</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Chia seeds</p>
+                    <ul>
+                        <li>omega 3s, protein, fiber, calcium</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Flax meal</p>
+                    <ul>
+                        <li>omega 3s, fiber</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Slightly  mashed berries</p>
+                    <ul>
+                        <li>vitamin C</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Canned beans, softened or mashed</p>
+                    <ul>
+                        <li>protein, iron</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div className="mealdiv">
             <h2>Healthy Sauces</h2>
             <div className="container ">
                 <div>
-                    <h3>Nut butter sauce</h3>    
-                    <p>Combine 1-2 tsp of nut butter with 1-2 tsp of oil to thin, then drizzle on whatever foods you are serving. </p>
+                    <h3>Nut butter sauce</h3> 
+                    <ul>
+                        <li>1-2 tsp of nut butter</li>
+                        <li>1-2 tsp oil</li>
+                    </ul>   
+                    <p>Combine nut butter with oil to thin, then drizzle on whatever foods you are serving. </p>
                 </div>
                 <div>
                     <h3>Yogurt sauce</h3>
-                    <p>Combine 1-2 tbsp of 4%+ M.F. yogurt with 1 tbsp soft tofu, add 1/4 tsp coriander, mix till mostly smooth and enjoy on pasta or vegetables.</p>
+                    <ul>
+                        <li>1-2 TBSP high fat yogurt</li>
+                        <li>1 TBSP soft tofu</li>
+                        <li>1/4 tsp coriander, spices to taste</li>
+                    </ul>
+                    <p>Combine all ingredients and mix till mostly smooth and enjoy on pasta or vegetables.</p>
                 </div>
                 <div>
-                    <h3>Cheeze sauce</h3>
-                    <p>Mix 1 tbsp nutritional yeast with 1 tbsp plain yogurt, 1 tsp onion powder, 1 tsp garlic powder, 1/4 tsp tumeric. Let sit for 5-10min to marinate then add to foods. </p>
+                    <h3>Cheese sauce</h3>
+                    <ul>
+                        <li>1 TBSP nutritional yeast</li>
+                        <li>1/4 cup shredded cheese</li>
+                        <li>2 tsp yogurt</li>
+                        <li>1 tsp onion powder</li>
+                        <li>1 tsp garlic powder</li>
+                    </ul>
+                    <p>Melt ingredients together and then add to foods. </p>
                 </div>
             </div>
         </div>
@@ -54,7 +100,7 @@ const EasyMeals = () => (
                         <li>1/2 mashed banana</li>
                         <li>1 cup milk</li>
                     </ul>
-                    <p>Combine all ingredients, mix well, pour batter into a pan heated with oil. Let cook until lightly browned and bubbles form on the top, then flip. Serve with nut butter on top.</p>
+                    <p>Combine all ingredients, mix well, pour batter into a pan heated with butter or oil. Let cook until lightly browned and bubbles form on the top, then flip. Serve with nut butter on top.</p>
                 </div>
                 <div>
                     <p className="recipeTitle">Simple Stirfry</p>
@@ -67,7 +113,7 @@ const EasyMeals = () => (
                     <p>Chop veggies into bite sizes and sautee in oil or butter until soft. Add spices like cumin, coriander, or anything savory (not too spicy). You can cook the tofu with the veggies or serve plain on the side. </p>
                 </div>
                 <div>
-                    <p className="recipeTitle">Avocado Toast</p>
+                    <p id="avoToast" className="recipeTitle">Avocado Toast</p>
                     <ul>
                         <li>1-2 slices whole wheat bread</li>
                         <li>1/2 avocado</li>
@@ -84,7 +130,7 @@ const EasyMeals = () => (
                         <li>1/2 cup pasta (I like to use macaroni)</li>
                         <li>1 TBSP oil or butter</li>
                         <li>handful of frozen peas</li>
-                        <li>yogurt sauce (instructions above)</li>
+                        <li>yogurt sauce or cheese sauce</li>
                     </ul>
                     <p>Boil your choice of pasta until it is very soft. Melt oil or butter into drained noodles, add yogurt sauce and peas and cover until peas are warmed. Serve immediately. </p>
                 </div>
@@ -145,7 +191,7 @@ const EasyMeals = () => (
                     <p>Chop sweet potato, squash, onion or other roots or squash into bite sized pieces and toss in oil and spices. Roast in the oven at 350deg for 25-30min. Remove when soft and serve warm. </p>
                 </div>
                 <div>
-                    <p className="recipeTitle">Chickpea Porridge</p>
+                    <p id="chickpeaPorridge" className="recipeTitle">Chickpea Porridge</p>
                     <ul>
                         <li>1/2 can chickpeas</li>
                         <li>1/2-1 cup vegetable stock</li>
