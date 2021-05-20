@@ -1,4 +1,5 @@
 import React from 'react';
+import testImg from '../baby-eating.jpeg';
 
 const EasyMeals = () => (
     <div className="content">
@@ -90,7 +91,8 @@ const EasyMeals = () => (
         <div className="mealdiv">
             <h2>Healthy Recipes in 10-30min</h2>
             <div className="container ">
-                <div>
+                <div className="recipe">
+                    <img src={testImg}></img>
                     <p className="recipeTitle">Baby Pancakes</p>
                     <ul>
                         <li>1/2 cup chickpea flour</li>
@@ -100,6 +102,7 @@ const EasyMeals = () => (
                         <li>1/2 mashed banana</li>
                         <li>1 cup milk</li>
                     </ul>
+                    <p>Directions:</p>
                     <p>Combine all ingredients, mix well, pour batter into a pan heated with butter or oil. Let cook until lightly browned and bubbles form on the top, then flip. Serve with nut butter on top.</p>
                 </div>
                 <div>

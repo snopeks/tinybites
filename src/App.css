@@ -208,7 +208,18 @@ h1, h2, h3, h4 {
 .header{
   background-color: #4A8076;
 }
+.recipe {
+  text-align: left;
+  border-radius: 5px; 
+  box-shadow: 0 0 10px lightgrey; 
+}
 
+.recipe img {
+  height: 245px; 
+}
+li {
+  text-align: left; 
+}
 #food1 {
   grid-row-start: 2; 
 }
