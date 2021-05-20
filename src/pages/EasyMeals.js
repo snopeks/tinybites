@@ -93,7 +93,7 @@ const EasyMeals = () => (
             <div className="container ">
                 <div className="recipe">
                     <img src={testImg}></img>
-                    <p className="recipeTitle">Baby Pancakes</p>
+                    <p>Baby Pancakes</p>
                     <ul>
                         <li>1/2 cup chickpea flour</li>
                         <li>1/2 cup regular flour</li>
@@ -102,7 +102,7 @@ const EasyMeals = () => (
                         <li>1/2 mashed banana</li>
                         <li>1 cup milk</li>
                     </ul>
-                    <p>Directions:</p>
+                    <p className="recipeDirections">Directions:</p>
                     <p>Combine all ingredients, mix well, pour batter into a pan heated with butter or oil. Let cook until lightly browned and bubbles form on the top, then flip. Serve with nut butter on top.</p>
                 </div>
                 <div>

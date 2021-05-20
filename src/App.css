@@ -283,9 +283,13 @@ li {
   cursor: pointer; 
 }
 .recipeTitle {
-  background-color: #FFD985;
   font-size: 1.2em; 
 }
+.recipeDirections {
+  border-top: 5px solid grey; 
+  border-width: 80%;
+}
+
 footer {
   background-color: #BEEBDA;
   padding: 20px; 
