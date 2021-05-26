@@ -154,17 +154,7 @@ h1, h2, h3, h4 {
 .infoLeft h2{
   text-align: left; 
 }
-.mealdiv {
-  margin-bottom: 20px; 
-}
-.mealdiv h2 {
-  background-color: lightgrey;
-}
 
-.mealdiv p {
-  padding: 10px; 
-  font-size: 20px; 
-}
 
 .resourceLinks {
   display: grid; 
@@ -242,7 +232,12 @@ li {
   padding: 5px; 
   margin-top: 0; 
 }
-
+.easyMealsContainer {
+  display: grid; 
+  grid-template-columns: 100%; 
+  justify-content: center;
+  text-align: left;  
+}
 .aboutcontainer {
   display: grid; 
   grid-template-columns: 100%; 
@@ -322,6 +317,10 @@ footer a:hover{
   }
   .smallcontainer {
     grid-template-columns: 50% 50%;
+  }
+
+  .easyMealsContainer {
+    grid-template-columns: 45% 45%;  
   }
   .eatingImg {
     width: 92%; 
