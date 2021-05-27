@@ -204,9 +204,7 @@ h1, h2, h3, h4 {
   box-shadow: 0 0 10px lightgrey; 
 }
 
-.recipe img {
-  height: 245px; 
-}
+
 li {
   text-align: left; 
 }
@@ -277,11 +275,19 @@ li {
   box-shadow: 12px 12px #BEEBDA;
   cursor: pointer; 
 }
+.recipeImg {
+  height: 100px; 
+  line-height: 100px; 
+  background: teal; 
+  text-align: center; 
+}
 .recipeTitle {
   font-size: 1.2em; 
+  color: white; 
+  margin: auto; 
 }
 .recipeDirections {
-  border-top: 5px solid grey; 
+  border-top: 2px solid grey; 
   border-width: 80%;
 }
 

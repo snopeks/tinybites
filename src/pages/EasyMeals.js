@@ -63,8 +63,9 @@ const EasyMeals = () => (
             <h2>Healthy Recipes in 10-30min</h2>
             <div className="container ">
                 <div className="recipe">
-                    <img src={testImg}></img>
-                    <p>Baby Pancakes</p>
+                    <div class="recipeImg">
+                        <p className="recipeTitle">Baby Pancakes</p>
+                    </div>
                     <ul>
                         <li>1/2 cup chickpea flour</li>
                         <li>1/2 cup regular flour</li>
