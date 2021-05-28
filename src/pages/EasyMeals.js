@@ -2,56 +2,27 @@ import React from 'react';
 
 const EasyMeals = () => (
     <div className="content">
-        <h2 className="pageTitle">Meals</h2>
-        <div className="mealdiv">
-            <h2>Healthy and Quick!</h2>
-            <h3>Simple go-to options for busy parents</h3>
-            <p>Cheesebread and sliced fruits</p>
-            <p><a href="#avoToast">Avocado toast</a> and a side of beans</p>
-            <p><a href="#chickpeaPorridge">Chickpea porridge</a> and peas</p>
-            <p>Iron-fortified baby cereal &amp; banana with nut butter</p>
-            <p>Pasta with Mashed Peas &amp; Yogurt sauce</p>
-            <p>Chopped avocado with nut butter sauce, tofu pieces, &amp; berries</p>
-        </div>
-        <div className="mealdiv">
-            <h2>Nutrition-boosting Toppings and Sides</h2>
-            <div className="container ">
-                <div>
-                    <p>Nutritional Yeast</p>
-                    <ul>
-                        <li>b vitamins</li>
-                    </ul>
-                </div>
-                <div>
-                    <p>Hemp hearts</p>
-                    <ul>
-                        <li>omega 3s, protein, iron</li>
-                    </ul>
-                </div>
-                <div>
-                    <p>Chia seeds</p>
-                    <ul>
-                        <li>omega 3s, protein, fiber, calcium</li>
-                    </ul>
-                </div>
-                <div>
-                    <p>Flax meal</p>
-                    <ul>
-                        <li>omega 3s, fiber</li>
-                    </ul>
-                </div>
-                <div>
-                    <p>Slightly  mashed berries</p>
-                    <ul>
-                        <li>vitamin C</li>
-                    </ul>
-                </div>
-                <div>
-                    <p>Canned beans, softened or mashed</p>
-                    <ul>
-                        <li>protein, iron</li>
-                    </ul>
-                </div>
+        <h2 className="pageTitle">Recipes</h2>
+        <div className="easyMealsContainer">
+            <div>
+                <h2>Basic Meals</h2>
+                <h3>Simple go-to options for busy parents</h3>
+                <p>Cheesebread and sliced fruits</p>
+                <p><a href="#avoToast">Avocado toast</a> and a side of beans</p>
+                <p><a href="#chickpeaPorridge">Chickpea porridge</a> and peas</p>
+                <p>Iron-fortified baby cereal &amp; banana with nut butter</p>
+                <p>Pasta with Mashed Peas &amp; Yogurt sauce</p>
+                <p>Chopped avocado with nut butter sauce, tofu pieces, &amp; berries</p>
+            </div>
+            <div>
+                <h2>Toppings and sides</h2>
+                <h3>Simple options that give that extra nutritional boost</h3>
+                <p>Nutritional Yeast - b-vitamins</p>
+                <p>Hemp hearts - omega 3s, protein, iron</p>
+                <p>Chia seeds - omega 3s, protein, fiber, calcium</p>
+                <p>Flax meal - omega 3s, fiber</p>
+                <p>Berries - vitamin C, fiber</p>
+                <p>Canned Beans - protein, iron, fiber</p>
             </div>
         </div>
         <div className="mealdiv">
@@ -90,8 +61,10 @@ const EasyMeals = () => (
         <div className="mealdiv">
             <h2>Healthy Recipes in 10-30min</h2>
             <div className="container ">
-                <div>
-                    <p className="recipeTitle">Baby Pancakes</p>
+                <div className="recipe">
+                    <div class="recipeImg">
+                        <p className="recipeTitle">Baby Pancakes</p>
+                    </div>
                     <ul>
                         <li>1/2 cup chickpea flour</li>
                         <li>1/2 cup regular flour</li>
@@ -100,6 +73,7 @@ const EasyMeals = () => (
                         <li>1/2 mashed banana</li>
                         <li>1 cup milk</li>
                     </ul>
+                    <p className="recipeDirections">Directions:</p>
                     <p>Combine all ingredients, mix well, pour batter into a pan heated with butter or oil. Let cook until lightly browned and bubbles form on the top, then flip. Serve with nut butter on top.</p>
                 </div>
                 <div>

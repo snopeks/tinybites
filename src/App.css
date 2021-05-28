@@ -154,17 +154,7 @@ h1, h2, h3, h4 {
 .infoLeft h2{
   text-align: left; 
 }
-.mealdiv {
-  margin-bottom: 20px; 
-}
-.mealdiv h2 {
-  background-color: lightgrey;
-}
 
-.mealdiv p {
-  padding: 10px; 
-  font-size: 20px; 
-}
 
 .resourceLinks {
   display: grid; 
@@ -208,7 +198,16 @@ h1, h2, h3, h4 {
 .header{
   background-color: #4A8076;
 }
+.recipe {
+  text-align: left;
+  border-radius: 5px; 
+  box-shadow: 0 0 10px lightgrey; 
+}
 
+
+li {
+  text-align: left; 
+}
 #food1 {
   grid-row-start: 2; 
 }
@@ -231,7 +230,12 @@ h1, h2, h3, h4 {
   padding: 5px; 
   margin-top: 0; 
 }
-
+.easyMealsContainer {
+  display: grid; 
+  grid-template-columns: 100%; 
+  justify-content: center;
+  text-align: left;  
+}
 .aboutcontainer {
   display: grid; 
   grid-template-columns: 100%; 
@@ -271,10 +275,22 @@ h1, h2, h3, h4 {
   box-shadow: 12px 12px #BEEBDA;
   cursor: pointer; 
 }
-.recipeTitle {
-  background-color: #FFD985;
-  font-size: 1.2em; 
+.recipeImg {
+  height: 100px; 
+  line-height: 100px; 
+  background: teal; 
+  text-align: center; 
 }
+.recipeTitle {
+  font-size: 1.2em; 
+  color: white; 
+  margin: auto; 
+}
+.recipeDirections {
+  border-top: 2px solid grey; 
+  border-width: 80%;
+}
+
 footer {
   background-color: #BEEBDA;
   padding: 20px; 
@@ -307,6 +323,10 @@ footer a:hover{
   }
   .smallcontainer {
     grid-template-columns: 50% 50%;
+  }
+
+  .easyMealsContainer {
+    grid-template-columns: 45% 45%;  
   }
   .eatingImg {
     width: 92%; 
