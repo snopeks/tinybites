@@ -1,5 +1,4 @@
 import React from 'react';
-import testImg from '../baby-eating.jpeg';
 
 const EasyMeals = () => (
     <div className="content">
