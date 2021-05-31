@@ -1,5 +1,50 @@
 import React from 'react';
 
+let allRecipes = [
+    {
+        "title": "Baby Pancakes",
+        "ingredients": [
+            "1/2 cup chickpea flour",
+            "1/2 cup regular flour",
+            "1/4 cup flax meal",
+            "1 tsp baking powder",
+            "1/2 mashed banana",
+            "1 cup milk"
+        ],
+        "directions": "Combine all ingredients, mix well, pour batter into a pan heated with butter or oil. Let cook until lightly browned and bubbles form on the top, then flip. Serve with nut butter on top."
+    },
+    {
+        "title": "Simple Stirfry",
+        "Ingredients": [
+            "any three veggies",
+            "1 TBSP oil or butter",
+            "spices and sauces to taste",
+            "1/4 cup tofu"
+        ],
+        "directions": "Chop veggies into bite sizes and sautee in oil or butter until soft. Add spices like cumin, coriander, or anything savory (not too spicy). You can cook the tofu with the veggies or serve plain on the side."
+    },
+    {
+        "title": "Avocado Toast",
+        "Ingredients": [
+            "1-2 slices whole wheat bread",
+            "1/2 avocado",
+            "1 tsp oil",
+            "a dash of lemon",
+            "hemp hearts",
+            "nutritional yeast"
+        ],
+        "directions": "Lightly toast whole wheat bread, mash avocado with a splash of oil, a dash of lemon juice. Spread avocado on toast and sprinkle with hemp hearts and nutritional yeast. Slice into spears and serve."
+    }
+]
+
+const generateRecipes = (recipesData) => {
+    recipesData.forEach(recipe => {
+        return (
+            <p>{recipe.title}</p>
+        )
+    });
+}
+
 const EasyMeals = () => (
     <div className="content">
         <h2 className="pageTitle">Recipes</h2>
@@ -61,10 +106,12 @@ const EasyMeals = () => (
         <div className="mealdiv">
             <h2>Healthy Recipes in 10-30min</h2>
             <div className="container ">
+                {generateRecipes(allRecipes)}
                 <div className="recipe">
                     <div class="recipeImg">
-                        <p className="recipeTitle">Baby Pancakes</p>
+                        <h3 className="recipeTitle">Baby Pancakes</h3>
                     </div>
+                    <p>Ingredients:</p>
                     <ul>
                         <li>1/2 cup chickpea flour</li>
                         <li>1/2 cup regular flour</li>
