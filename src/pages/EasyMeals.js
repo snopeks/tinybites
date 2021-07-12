@@ -15,7 +15,7 @@ let allRecipes = [
     },
     {
         "title": "Simple Stirfry",
-        "Ingredients": [
+        "ingredients": [
             "any three veggies",
             "1 TBSP oil or butter",
             "spices and sauces to taste",
@@ -25,7 +25,7 @@ let allRecipes = [
     },
     {
         "title": "Avocado Toast",
-        "Ingredients": [
+        "ingredients": [
             "1-2 slices whole wheat bread",
             "1/2 avocado",
             "1 tsp oil",
@@ -42,7 +42,23 @@ class EasyMeals extends Component {
     GenerateRecipes(recipesData){
         let recipeContent = recipesData.map(recipe => {
             console.log(recipe.title)
-            return <p>{recipe.title}</p>
+            return (
+                <div className="recipe">
+                    <div className="recipeImg">
+                        <h3 className="recipeTitle">{recipe.title}</h3>
+                    </div>
+                    <p>Ingredients:</p>
+                    <ul>
+                        <li>
+                            {recipe.ingredients}
+                        </li>
+                    </ul>
+                    <p className="recipeDirections">Directions:</p>
+                    <p>{recipe.directions}</p>
+                </div>
+                
+            )
+                
         });
         return <h1>{recipeContent}</h1>
     }
