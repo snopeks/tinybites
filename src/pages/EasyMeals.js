@@ -34,14 +34,92 @@ let allRecipes = [
             "nutritional yeast"
         ],
         "directions": "Lightly toast whole wheat bread, mash avocado with a splash of oil, a dash of lemon juice. Spread avocado on toast and sprinkle with hemp hearts and nutritional yeast. Slice into spears and serve."
+    },
+    {
+        "title": "Easy Pasta",
+        "ingredients": [
+            "1/2 cup pasta (I like to use macaroni)",
+            "1 TBSP oil or butter",
+            "handful of frozen peas",
+            "yogurt sauce or cheese sauce"
+        ],
+        "directions": "Boil your choice of pasta until it is very soft. Melt oil or butter into drained noodles, add yogurt sauce and peas and cover until peas are warmed. Serve immediately."
+    },
+    {
+        "title": "Tasty Lentils",
+        "ingredients": [
+            "1 cup water",
+            "1/2 cup lentils",
+            "1/2 large tomato",
+            "cumin, tumeric, black pepper to taste",
+            "1 TBSP butter or oil"
+        ],
+        "directions": "Combine water with lentils, boil till mushy. Add tomato and cook to soften. Add spices and butter or oil and serve warm."
+    },
+    {
+        "title": "Banana Nut Yogurt",
+        "ingredients": [
+            "1 banana",
+            "1-2 tsp hemp hearts",
+            "1-2 tsp nut sauce",
+            "1/4 cup yogurt or iron-fortified infant cereal"
+        ],
+        "directions":"Cut banana into pieces, sprinkle with hemp hearts and nut sauce. Add to yogurt or infant cereal. Serve fresh."
+    },
+    {
+        "title":"Veggie frittata",
+        "ingredients": [
+            "1 egg",
+            "1 handful chopped spinach",
+            "1 tsp hemp hearts",
+            "1 TBSP oil or butter",
+            "spices to taste"
+        ],
+        "directions": "Mix the egg, chopped spinach, hemp hearts and spices in a bowl. Pour into a heated, oiled pan and cover on medium heat. Steam the frittata for about 2min, flip when lightly browned. Slice into spears or bites. Serve warm. "
+    },
+    {
+        "title": "Scrambled Tofu",
+        "ingredients": [
+            "1/4 large onion",
+            "1 piece celery",
+            "3 mushrooms",
+            "1 TBSP oil or butter",
+            "1/2 cup tofu",
+            "1 tsp nutritional yeast",
+            "spices"
+        ],
+        "directions": "Chop onion, celery and/or mushroom and sautee in pan till soft. Add tofu, spices and nutritional yeast. Roughly scramble for 2-3min until tofu is mixed well with veggies and spices. Serve warm."
+    },
+    {
+        "title":"Roasted Veg",
+        "ingredients": [
+            "1 sweet potato",
+            "1/2 squash, zuccini or other veg",
+            "1 onion",
+            "1 TBSP oil",
+            "1 tsp basil, rosemary and other spices",
+        ],
+        "directions":"Chop sweet potato, squash, onion or other roots or squash into bite sized pieces and toss in oil and spices. Roast in the oven at 350deg for 25-30min. Remove when soft and serve warm."
+    },
+    {
+        "title":"Chickpea Porridge",
+        "ingredients": [
+            "1/2 can chickpeas",
+            "1/2-1 cup vegetable stock",
+            "1/2 TBSP butter",
+            "1 tsp nutritional yeast",
+            "1 tsp coriander",
+            "Pepper to taste",
+        ],
+        "directions":"Cook chickpeas with vegetable broth on the stove till softened like porridge. Add butter/oil,nutritional yeast, coriander, and pepper. Mix well and serve warm."
     }
+
 ]
 
 
 class EasyMeals extends Component {
     GenerateRecipes(recipesData){
         let recipeContent = recipesData.map(recipe => {
-            console.log(recipe.title)
             return (
                 <div className="recipe">
                     <div className="recipeImg">
@@ -49,18 +127,15 @@ class EasyMeals extends Component {
                     </div>
                     <p>Ingredients:</p>
                     <ul>
-                        <li>
-                            {recipe.ingredients}
-                        </li>
+                        {recipe.ingredients.map((ing, i) => <li key={i}>{ing}</li>)}
                     </ul>
                     <p className="recipeDirections">Directions:</p>
                     <p>{recipe.directions}</p>
                 </div>
-                
             )
                 
         });
-        return <h1>{recipeContent}</h1>
+        return recipeContent
     }
     render() {
         return (
@@ -122,129 +197,10 @@ class EasyMeals extends Component {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <p>Content should arrive here</p>
-                    {this.GenerateRecipes(allRecipes)}
-                </div>
                 <div className="mealdiv">
                     <h2>Healthy Recipes in 10-30min</h2>
                     <div className="container ">
-                        <div className="recipe">
-                            <div className="recipeImg">
-                                <h3 className="recipeTitle">Baby Pancakes</h3>
-                            </div>
-                            <p>Ingredients:</p>
-                            <ul>
-                                <li>1/2 cup chickpea flour</li>
-                                <li>1/2 cup regular flour</li>
-                                <li>1/4 cup flax meal</li>
-                                <li>1 tsp baking powder</li>
-                                <li>1/2 mashed banana</li>
-                                <li>1 cup milk</li>
-                            </ul>
-                            <p className="recipeDirections">Directions:</p>
-                            <p>Combine all ingredients, mix well, pour batter into a pan heated with butter or oil. Let cook until lightly browned and bubbles form on the top, then flip. Serve with nut butter on top.</p>
-                        </div>
-                        <div>
-                            <p className="recipeTitle">Simple Stirfry</p>
-                            <ul>
-                                <li>any three veggies</li>
-                                <li>1 TBSP oil or butter</li>
-                                <li>spices and sauces to taste</li>
-                                <li>1/4 cup tofu</li>
-                            </ul>
-                            <p>Chop veggies into bite sizes and sautee in oil or butter until soft. Add spices like cumin, coriander, or anything savory (not too spicy). You can cook the tofu with the veggies or serve plain on the side. </p>
-                        </div>
-                        <div>
-                            <p id="avoToast" className="recipeTitle">Avocado Toast</p>
-                            <ul>
-                                <li>1-2 slices whole wheat bread</li>
-                                <li>1/2 avocado</li>
-                                <li>1 tsp oil</li>
-                                <li>a dash of lemon</li>
-                                <li>hemp hearts</li>
-                                <li>nutritional yeast</li>
-                            </ul>
-                            <p>Lightly toast whole wheat bread, mash avocado with a splash of oil, a dash of lemon juice. Spread avocado on toast and sprinkle with hemp hearts and nutritional yeast. Slice into spears and serve.</p>
-                        </div>
-                        <div>
-                            <p className="recipeTitle">Easy Pasta</p>
-                            <ul>
-                                <li>1/2 cup pasta (I like to use macaroni)</li>
-                                <li>1 TBSP oil or butter</li>
-                                <li>handful of frozen peas</li>
-                                <li>yogurt sauce or cheese sauce</li>
-                            </ul>
-                            <p>Boil your choice of pasta until it is very soft. Melt oil or butter into drained noodles, add yogurt sauce and peas and cover until peas are warmed. Serve immediately. </p>
-                        </div>
-                        <div>
-                            <p className="recipeTitle">Tasty Lentils</p>
-                            <ul>
-                                <li>1 cup water</li>
-                                <li>1/2 cup lentils</li>
-                                <li>1/2 large tomato</li>
-                                <li>cumin, tumeric, black pepper to taste</li>
-                                <li>1 TBSP butter or oil</li>
-                            </ul>
-                            <p>Combine water with lentils, boil till mushy. Add tomato and cook to soften. Add spices and butter or oil and serve warm. </p>
-                        </div>
-                        <div>
-                            <p className="recipeTitle">Banana Nut Yogurt</p>
-                            <ul>
-                                <li>1 banana</li>
-                                <li>1-2 tsp hemp hearts</li>
-                                <li>1-2 tsp nut sauce</li>
-                                <li>1/4 cup yogurt or iron-fortified infant cereal</li>
-                            </ul>
-                            <p>Cut banana into pieces, sprinkle with hemp hearts and nut sauce. Add to yogurt or infant cereal. Serve fresh.</p>
-                        </div>
-                        <div>
-                            <p className="recipeTitle">Veggie frittata</p>
-                            <ul>
-                                <li>1 egg</li>
-                                <li>1 handful chopped spinach</li>
-                                <li>1 tsp hemp hearts</li>
-                                <li>1 TBSP oil or butter</li>
-                                <li>spices to taste</li>
-                            </ul>
-                            <p>Mix the egg, chopped spinach, hemp hearts and spices in a bowl. Pour into a heated, oiled pan and cover on medium heat. Steam the frittata for about 2min, flip when lightly browned. Slice into spears or bites. Serve warm.  </p>
-                        </div>
-                        <div>
-                            <p className="recipeTitle">Scrambled Tofu</p>
-                            <ul>
-                                <li>1/4 large onion</li>
-                                <li>1 piece celery</li>
-                                <li>3 mushrooms</li>
-                                <li>1 TBSP oil or butter</li>
-                                <li>1/2 cup tofu</li>
-                                <li>1 tsp nutritional yeast</li>
-                                <li>spices</li>
-                            </ul>
-                            <p>Chop onion, celery and/or mushroom and sautee in pan till soft. Add tofu, spices and nutritional yeast. Roughly scramble for 2-3min until tofu is mixed well with veggies and spices. Serve warm.  </p>
-                        </div>
-                        <div>
-                            <p className="recipeTitle">Roasted Veg</p>
-                            <ul>
-                                <li>1 sweet potato</li>
-                                <li>1/2 squash, zuccini or other veg</li>
-                                <li>1 onion</li>
-                                <li>1 TBSP oil</li>
-                                <li>1 tsp basil, rosemary and other spices</li>
-                            </ul>
-                            <p>Chop sweet potato, squash, onion or other roots or squash into bite sized pieces and toss in oil and spices. Roast in the oven at 350deg for 25-30min. Remove when soft and serve warm. </p>
-                        </div>
-                        <div>
-                            <p id="chickpeaPorridge" className="recipeTitle">Chickpea Porridge</p>
-                            <ul>
-                                <li>1/2 can chickpeas</li>
-                                <li>1/2-1 cup vegetable stock</li>
-                                <li>1/2 TBSP butter</li>
-                                <li>1 tsp nutritional yeast</li>
-                                <li>1 tsp coriander</li>
-                                <li>Pepper to taste</li>
-                            </ul>
-                            <p>Cook chickpeas with vegetable broth on the stove till softened like porridge. Add butter/oil,nutritional yeast, coriander, and pepper. Mix well and serve warm.</p>
-                        </div>
+                        {this.GenerateRecipes(allRecipes)}
                     </div>
 
                 </div>
