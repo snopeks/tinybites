@@ -203,6 +203,10 @@ h1, h2, h3, h4 {
   border-radius: 5px; 
   box-shadow: 0 0 10px lightgrey; 
 }
+.recipe p {
+  padding: 20px; 
+  margin: 0; 
+}
 
 
 li {
@@ -287,7 +291,7 @@ li {
   margin: auto; 
 }
 .recipeDirections {
-  border-top: 2px solid grey; 
+  border-top: 2px solid #EDF4F2; 
   border-width: 80%;
 }
 
