@@ -68,7 +68,7 @@ let allRecipes = [
         "directions":"Cut banana into pieces, sprinkle with hemp hearts and nut sauce. Add to yogurt or infant cereal. Serve fresh."
     },
     {
-        "title":"Veggie frittata",
+        "title":"Veggie Frittata",
         "ingredients": [
             "1 egg",
             "1 handful chopped spinach",
