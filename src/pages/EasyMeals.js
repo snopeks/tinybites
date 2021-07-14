@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import babyEating from '../recipes-page.jpeg';
 
 let allRecipes = [
     {
@@ -67,7 +68,7 @@ let allRecipes = [
         "directions":"Cut banana into pieces, sprinkle with hemp hearts and nut sauce. Add to yogurt or infant cereal. Serve fresh."
     },
     {
-        "title":"Veggie frittata",
+        "title":"Veggie Frittata",
         "ingredients": [
             "1 egg",
             "1 handful chopped spinach",
@@ -119,15 +120,15 @@ let allRecipes = [
 
 class EasyMeals extends Component {
     GenerateRecipes(recipesData){
-        let recipeContent = recipesData.map(recipe => {
+        let recipeContent = recipesData.map((recipe, key) => {
             return (
-                <div className="recipe">
+                <div key={key} className="recipe">
                     <div className="recipeImg">
                         <h3 className="recipeTitle">{recipe.title}</h3>
                     </div>
                     <p>Ingredients:</p>
                     <ul>
-                        {recipe.ingredients.map((ing, i) => <li key={i}>{ing}</li>)}
+                        {recipe.ingredients.map((item, i) => <li key={i}>{item}</li>)}
                     </ul>
                     <p className="recipeDirections">Directions:</p>
                     <p>{recipe.directions}</p>
@@ -142,6 +143,7 @@ class EasyMeals extends Component {
 
             <div className="content">
                 <h2 className="pageTitle">Recipes</h2>
+                <img id="recipesPagePic" alt="baby eating food with mother" src={babyEating}></img>
                 <div className="easyMealsContainer">
                     <div>
                         <h2>Basic Meals</h2>

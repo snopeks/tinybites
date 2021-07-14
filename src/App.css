@@ -190,8 +190,12 @@ h1, h2, h3, h4 {
   width: 88%; 
   margin: auto; 
 }
+.checkmark {
+  color: #EDAC29;
+  font-size: 20px; 
+}
 .header h3 {
-  font-size: 1em; 
+  font-size: 0.6em; 
   color: white; 
   font-weight: bold;
 }
@@ -208,6 +212,11 @@ h1, h2, h3, h4 {
   margin: 0; 
 }
 
+#recipesPagePic {
+  width: 90%; 
+  display: block; 
+  margin: 0 auto;   
+}
 
 li {
   text-align: left; 
@@ -353,6 +362,11 @@ footer a:hover{
   #header li {
     float: left; 
   }
+
+  .header h3 {
+    font-size: 1em; 
+  }
+  
   .babyImage {
     position: relative; 
     height: 700px; 
