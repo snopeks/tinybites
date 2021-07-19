@@ -301,7 +301,9 @@ li {
 }
 .recipeDirections {
   border-top: 2px solid #EDF4F2; 
-  border-width: 80%;
+}
+.recipeHeader {
+  font-weight: bold; 
 }
 
 footer {
