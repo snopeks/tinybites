@@ -177,24 +177,28 @@ class EasyMeals extends Component {
                 <img id="recipesPagePic" alt="baby eating food with mother" src={babyEating}></img>
                 <div className="easyMealsContainer">
                     <div>
-                        <h2>Basic Meals</h2>
+                        <h2>Easy and Satisfying Meals</h2>
                         <h3>Simple go-to options for busy parents</h3>
-                        <p>Cheesebread and sliced fruits</p>
-                        <p><a href="#avoToast">Avocado toast</a> and a side of beans</p>
-                        <p><a href="#chickpeaPorridge">Chickpea porridge</a> and peas</p>
-                        <p>Iron-fortified baby cereal &amp; banana with nut butter</p>
-                        <p>Pasta with Mashed Peas &amp; Yogurt sauce</p>
-                        <p>Chopped avocado with nut butter sauce, tofu pieces, &amp; berries</p>
+                        <ul>
+                            <li>Cheesebread and sliced fruits</li>
+                            <li><a href="#avoToast">Avocado toast</a> and a side of beans</li>
+                            <li>Oatmeal with raisins and strawberries</li>
+                            <li>Iron-fortified baby cereal &amp; banana with nut butter</li>
+                            <li>Pasta with Mashed Peas &amp; Yogurt sauce</li>
+                            <li>Chopped avocado with nut butter sauce, tofu pieces, &amp; berries</li>
+                        </ul>
                     </div>
                     <div>
                         <h2>Toppings and sides</h2>
                         <h3>Give that extra nutritional boost</h3>
-                        <p>Nutritional Yeast - b-vitamins</p>
-                        <p>Hemp hearts - omega 3s, protein, iron</p>
-                        <p>Chia seeds - omega 3s, protein, fiber, calcium</p>
-                        <p>Flax meal - omega 3s, fiber</p>
-                        <p>Berries - vitamin C, fiber</p>
-                        <p>Canned Beans - protein, iron, fiber</p>
+                        <ul>
+                            <li>Nutritional Yeast - b-vitamins</li>
+                            <li>Hemp hearts - omega 3s, protein, iron</li>
+                            <li>Chia seeds - omega 3s, protein, fiber, calcium</li>
+                            <li>Flax meal - omega 3s, fiber</li>
+                            <li>Berries - vitamin C, fiber</li>
+                            <li>Canned Beans - protein, iron, fiber</li>
+                        </ul>
                     </div>
                 </div>
                 <div className="mealdiv">
