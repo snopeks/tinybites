@@ -202,6 +202,9 @@ h1, h2, h3, h4 {
 .header{
   background-color: #4A8076;
 }
+.mealsdiv h2 {
+  text-align: left; 
+}
 .recipe {
   text-align: left;
   border-radius: 5px; 
@@ -215,7 +218,7 @@ h1, h2, h3, h4 {
 #recipesPagePic {
   width: 90%; 
   display: block; 
-  margin: 0 auto;   
+  margin: 20px auto;   
 }
 
 li {
@@ -301,7 +304,9 @@ li {
 }
 .recipeDirections {
   border-top: 2px solid #EDF4F2; 
-  border-width: 80%;
+}
+.recipeHeader {
+  font-weight: bold; 
 }
 
 footer {

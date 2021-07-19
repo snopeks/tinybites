@@ -11,6 +11,7 @@ import Safety from './pages/Safety';
 import Header from './components/header';
 import * as serviceWorker from './serviceWorker';
 
+let today = new Date(); 
 
 const routing = (
     <Router>
@@ -25,7 +26,7 @@ const routing = (
             <footer>
               <p>Website by <a href="https://www.snowgillconsulting.com">Snowgill Consulting</a></p>
               <p>Design consultation by <a href="https://megansnopek.com/copy-of-contact">Megan Snopek</a></p>
-              <p>Tiny Bites, &copy; 2020</p>
+              <p>Tiny Bites, &copy; {today.getFullYear()}</p>
             </footer>
         </div>
     </Router>

@@ -3,7 +3,7 @@ import babyEating from '../recipes-page.jpeg';
 
 let allRecipes = [
     {
-        "title": "Baby Pancakes",
+        "title": "Banana Pancakes",
         "ingredients": [
             "1/2 cup chickpea flour",
             "1/2 cup regular flour",
@@ -116,7 +116,38 @@ let allRecipes = [
     }
 
 ]
-
+let sauceRecipes = [
+    {
+        "title": "Nut Butter Sauce",
+        "ingredients": [
+            "1-2 tsp of nut butter",
+            "1-2 tsp oil"
+        ],
+        "directions":"Combine nut butter with oil to thin, then drizzle on whatever foods you are serving."
+    },
+    {
+        "title": "Yogurt sauce",
+        "ingredients": [
+            "1-2 TBSP high fat yogurt",
+            "1 TBSP soft tofu",
+            "1/4 tsp coriander",
+            "other spices to taste (pepper, cumin, garlic powder are all great"
+        ],
+        "directions": "Combine all ingredients and mix till mostly smooth and enjoy on pasta or vegetables. Blending in a personal size blender works well."
+    },
+    {
+        "title":"Cheese sauce",
+        "ingredients": [
+            "1 TBSP butter",
+            "2 tsp flour",
+            "1/4 cup shredded cheese",
+            "1 TBSP nutritional yeast",
+            "1 tsp onion powder",
+            "1 tsp garlic powder"
+        ],
+        "directions": "In a pot on medium heat, melt butter and whisk in flour to create a simple roux. Stir the butter and flour until all lumps are gone, then add cheese and spices, stir until everything is blended and enjoy!"
+    }
+]
 
 class EasyMeals extends Component {
     GenerateRecipes(recipesData){
@@ -126,11 +157,11 @@ class EasyMeals extends Component {
                     <div className="recipeImg">
                         <h3 className="recipeTitle">{recipe.title}</h3>
                     </div>
-                    <p>Ingredients:</p>
+                    <p className="recipeHeader">Ingredients:</p>
                     <ul>
                         {recipe.ingredients.map((item, i) => <li key={i}>{item}</li>)}
                     </ul>
-                    <p className="recipeDirections">Directions:</p>
+                    <p className="recipeHeader recipeDirections">Directions:</p>
                     <p>{recipe.directions}</p>
                 </div>
             )
@@ -146,57 +177,34 @@ class EasyMeals extends Component {
                 <img id="recipesPagePic" alt="baby eating food with mother" src={babyEating}></img>
                 <div className="easyMealsContainer">
                     <div>
-                        <h2>Basic Meals</h2>
+                        <h2>Easy and Satisfying Meals</h2>
                         <h3>Simple go-to options for busy parents</h3>
-                        <p>Cheesebread and sliced fruits</p>
-                        <p><a href="#avoToast">Avocado toast</a> and a side of beans</p>
-                        <p><a href="#chickpeaPorridge">Chickpea porridge</a> and peas</p>
-                        <p>Iron-fortified baby cereal &amp; banana with nut butter</p>
-                        <p>Pasta with Mashed Peas &amp; Yogurt sauce</p>
-                        <p>Chopped avocado with nut butter sauce, tofu pieces, &amp; berries</p>
+                        <ul>
+                            <li>Cheesebread and sliced fruits</li>
+                            <li><a href="#avoToast">Avocado toast</a> and a side of beans</li>
+                            <li>Oatmeal with raisins and strawberries</li>
+                            <li>Iron-fortified baby cereal &amp; banana with nut butter</li>
+                            <li>Pasta with Mashed Peas &amp; Yogurt sauce</li>
+                            <li>Chopped avocado with nut butter sauce, tofu pieces, &amp; berries</li>
+                        </ul>
                     </div>
                     <div>
                         <h2>Toppings and sides</h2>
                         <h3>Give that extra nutritional boost</h3>
-                        <p>Nutritional Yeast - b-vitamins</p>
-                        <p>Hemp hearts - omega 3s, protein, iron</p>
-                        <p>Chia seeds - omega 3s, protein, fiber, calcium</p>
-                        <p>Flax meal - omega 3s, fiber</p>
-                        <p>Berries - vitamin C, fiber</p>
-                        <p>Canned Beans - protein, iron, fiber</p>
+                        <ul>
+                            <li>Nutritional Yeast - b-vitamins</li>
+                            <li>Hemp hearts - omega 3s, protein, iron</li>
+                            <li>Chia seeds - omega 3s, protein, fiber, calcium</li>
+                            <li>Flax meal - omega 3s, fiber</li>
+                            <li>Berries - vitamin C, fiber</li>
+                            <li>Canned Beans - protein, iron, fiber</li>
+                        </ul>
                     </div>
                 </div>
                 <div className="mealdiv">
                     <h2>Healthy Sauces</h2>
                     <div className="container ">
-                        <div>
-                            <h3>Nut butter sauce</h3> 
-                            <ul>
-                                <li>1-2 tsp of nut butter</li>
-                                <li>1-2 tsp oil</li>
-                            </ul>   
-                            <p>Combine nut butter with oil to thin, then drizzle on whatever foods you are serving. </p>
-                        </div>
-                        <div>
-                            <h3>Yogurt sauce</h3>
-                            <ul>
-                                <li>1-2 TBSP high fat yogurt</li>
-                                <li>1 TBSP soft tofu</li>
-                                <li>1/4 tsp coriander, spices to taste</li>
-                            </ul>
-                            <p>Combine all ingredients and mix till mostly smooth and enjoy on pasta or vegetables.</p>
-                        </div>
-                        <div>
-                            <h3>Cheese sauce</h3>
-                            <ul>
-                                <li>1 TBSP nutritional yeast</li>
-                                <li>1/4 cup shredded cheese</li>
-                                <li>2 tsp yogurt</li>
-                                <li>1 tsp onion powder</li>
-                                <li>1 tsp garlic powder</li>
-                            </ul>
-                            <p>Melt ingredients together and then add to foods. </p>
-                        </div>
+                        {this.GenerateRecipes(sauceRecipes)}
                     </div>
                 </div>
                 <div className="mealdiv">
