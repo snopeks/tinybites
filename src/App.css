@@ -186,7 +186,6 @@ h1, h2, h3, h4 {
   justify-content: center; 
   align-content: center; 
   box-shadow: 0 0 10px lightgrey;
-  width: 88%; 
   margin: auto; 
 }
 .checkmark {
@@ -225,25 +224,42 @@ li {
 }
 #food1 {
   grid-column-start: 2; 
-  background: #4A8076;
 }
 #food2 {
   grid-column-start: 3; 
-  background: #4A8076;
 }
 #food3 {
   grid-column-start: 4; 
-  background: #4A8076;
 }
 #food4 {
-  grid-column-start: 5;
-  background: #4A8076; 
+  grid-column-start: 5; 
 }
 #food5 {
   grid-column-start: 6; 
-  background: #4A8076;
+}
+#nut1 {
+  grid-row-start: 2; 
+}
+#nut2 {
+  grid-row-start: 3; 
+}
+#nut3 {
+  grid-row-start: 4; 
+}
+#nut4 {
+  grid-row-start: 5; 
+}
+#nut5 {
+  grid-row-start: 6; 
+}
+#nut6 {
+  grid-row-start: 7; 
+}
+#nut7 {
+  grid-row-start: 8; 
 }
 .nutrientHeader {
+  background: #4A8076;
   text-align: center; 
   color: white; 
   padding: 5px; 
@@ -344,6 +360,11 @@ footer a:hover{
   }
   .smallcontainer {
     grid-template-columns: 50% 50%;
+    align-self: center; 
+    
+  }
+  .powerhouseContainer {
+    width: 88%; 
   }
 
   .easyMealsContainer {
