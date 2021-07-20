@@ -4,7 +4,7 @@ import dadAndBabyPic from '../dadAndBaby.jpeg';
 const Safety = () => (
     <div className="content"> 
         <h2 className="pageTitle">Safety</h2>
-        <img id="dadAndBabyPic" src={dadAndBabyPic}></img>
+        <img id="dadAndBabyPic" src={dadAndBabyPic} alt="dad holding baby"></img>
         <div className="text">
             <h2>Safety First</h2>
             <p>It's important to be alert and aware of hazards while feeding your baby.</p>
