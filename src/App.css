@@ -180,14 +180,12 @@ h1, h2, h3, h4 {
   padding: 15px; 
 }
 .powerhouseContainer {
-
   display: grid; 
-  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; 
-  grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%; 
+  grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%; 
+  grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; 
   justify-content: center; 
   align-content: center; 
   box-shadow: 0 0 10px lightgrey;
-  width: 88%; 
   margin: auto; 
 }
 .checkmark {
@@ -215,7 +213,7 @@ h1, h2, h3, h4 {
   margin: 0; 
 }
 
-#recipesPagePic {
+#recipesPagePic, #dadAndBabyPic {
   width: 90%; 
   display: block; 
   margin: 20px auto;   
@@ -225,19 +223,40 @@ li {
   text-align: left; 
 }
 #food1 {
-  grid-row-start: 2; 
+  grid-column-start: 2; 
 }
 #food2 {
-  grid-row-start: 3; 
+  grid-column-start: 3; 
 }
 #food3 {
-  grid-row-start: 4; 
+  grid-column-start: 4; 
 }
 #food4 {
-  grid-row-start: 5; 
+  grid-column-start: 5; 
 }
 #food5 {
+  grid-column-start: 6; 
+}
+#nut1 {
+  grid-row-start: 2; 
+}
+#nut2 {
+  grid-row-start: 3; 
+}
+#nut3 {
+  grid-row-start: 4; 
+}
+#nut4 {
+  grid-row-start: 5; 
+}
+#nut5 {
   grid-row-start: 6; 
+}
+#nut6 {
+  grid-row-start: 7; 
+}
+#nut7 {
+  grid-row-start: 8; 
 }
 .nutrientHeader {
   background: #4A8076;
@@ -341,6 +360,11 @@ footer a:hover{
   }
   .smallcontainer {
     grid-template-columns: 50% 50%;
+    align-self: center; 
+    
+  }
+  .powerhouseContainer {
+    width: 88%; 
   }
 
   .easyMealsContainer {
@@ -389,7 +413,7 @@ footer a:hover{
   }
   
   .text {
-    width: 92%;
+    width: 90%;
   }
  
   #headerContainer {

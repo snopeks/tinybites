@@ -1,11 +1,13 @@
 import React from 'react';
+import dadAndBabyPic from '../dadAndBaby.jpeg';
 
 const Safety = () => (
     <div className="content"> 
         <h2 className="pageTitle">Safety</h2>
+        <img id="dadAndBabyPic" src={dadAndBabyPic} alt="dad holding baby"></img>
         <div className="text">
             <h2>Safety First</h2>
-            <p>It's important to maintain proper safety procedures while feeding your baby.</p>
+            <p>It's important to be alert and aware of hazards while feeding your baby.</p>
             <p>There are two main feeding hazards:</p>
             <ul>
                 <li>Choking</li>

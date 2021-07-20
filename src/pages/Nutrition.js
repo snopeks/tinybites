@@ -44,29 +44,23 @@ const Nutrients = () => (
             <div className="header" id="food5"><h3>Cheese &amp; Yogurt</h3></div>
             <div className="header" id="nut1"><h3>Iron</h3></div>
             <div className="header" id="nut2"><h3>Protein</h3></div>
-            <div className="header" id="nut3"><h3>Fat</h3></div>
+            <div className="header" id="nut3"><h3>B12</h3></div>
             <div className="header" id="nut4"><h3>Omega-3 fats</h3></div>
-            <div className="header" id="nut5"><h3>B12</h3></div>
-            <div className="header" id="nut6"><h3>Calcium</h3></div>
+            <div className="header" id="nut5"><h3>Calcium</h3></div>
+            <div className="header" id="nut6"><h3>Fat</h3></div>
             <div className="header" id="nut7"><h3>Zinc</h3></div>
             <div><p className="checkmark">&#x2714;</p></div>
             <div><p className="checkmark">&#x2714;</p></div>
-            <div></div>
             <div><p className="checkmark">&#x2714;</p></div>
             <div><p className="checkmark">&#x2714;</p></div>
             <div></div>
-            <div></div>
+
+            <div><p className="checkmark">&#x2714;</p></div>
+            <div><p className="checkmark">&#x2714;</p></div>
+            <div><p className="checkmark">&#x2714;</p></div>
+            <div><p className="checkmark">&#x2714;</p></div>
+            <div><p className="checkmark">&#x2714;</p></div>
             
-            <div><p className="checkmark">&#x2714;</p></div>
-            <div><p className="checkmark">&#x2714;</p></div>
-            <div></div>
-            <div><p className="checkmark">&#x2714;</p></div>
-            <div></div>
-            <div><p className="checkmark">&#x2714;</p></div>
-            <div></div>
-            
-            <div><p className="checkmark">&#x2714;</p></div>
-            <div><p className="checkmark">&#x2714;</p></div>
             <div><p className="checkmark">&#x2714;</p></div>
             <div></div>
             <div></div>
@@ -78,15 +72,26 @@ const Nutrients = () => (
             <div></div>
             <div></div>
             <div></div>
+            
+            <div></div>
+            <div><p className="checkmark">&#x2714;</p></div>
+            <div></div>
             <div><p className="checkmark">&#x2714;</p></div>
             <div><p className="checkmark">&#x2714;</p></div>
             
             <div></div>
+            <div></div>
             <div><p className="checkmark">&#x2714;</p></div>
+            <div></div>
+            <div><p className="checkmark">&#x2714;</p></div>
+            
+            
+
+            
             <div><p className="checkmark">&#x2714;</p></div>
             <div></div>
             <div></div>
-            <div><p className="checkmark">&#x2714;</p></div>
+            <div></div>
             <div><p className="checkmark">&#x2714;</p></div>
         </div>
         <h2>Key Nutrients</h2>
