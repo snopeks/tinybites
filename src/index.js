@@ -25,7 +25,7 @@ const routing = (
             <Route path="/safety" component={Safety}/>
             <footer>
               <p>Website by <a href="https://www.snowgillconsulting.com">Snowgill Consulting</a></p>
-              <p>Design consultation by <a href="https://megansnopek.com/copy-of-contact">Megan Snopek</a></p>
+              <p>Design by <a href="https://megansnopek.com/copy-of-contact">Megan Snopek</a></p>
               <p>Tiny Bites, &copy; {today.getFullYear()}</p>
             </footer>
         </div>

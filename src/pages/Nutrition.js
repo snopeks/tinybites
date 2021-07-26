@@ -21,19 +21,11 @@ const Nutrients = () => (
                 <p>At this time, you should be prioritizing iron and several other key nutrients when planning their meals.</p>
             </div>
         </div>
-        <h2>Don't stress over every meal. Focus on food diversity!</h2>
-        <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients! For a general goal, the best advice I've read is to provide <b>one iron, fat and fruit/veg source per meal</b></p>
-        <p>Keep in mind that by giving your baby a wide variety of foods, you are most likely hitting these targets already! </p>
         <div id="feedingTips">
-            
+            <h2>Don't stress over every meal. Focus on food diversity!</h2>
+            <p>To make this even easier, the powerhouse foods section highlights foods that cover at least 3 of these important nutrients! For a general goal, the best advice I've read is to provide <b>one iron, fat and fruit/veg source per meal</b></p>
+            <p>Keep in mind that by giving your baby a wide variety of foods, you are most likely hitting these targets already! </p>
         </div>
-        {/* <div>
-            <p><b>Eggs:</b> iron, protein, B12, Omega3s</p>
-            <p><b>Tofu:</b> iron, protein, Omega3s, calcium</p>
-            <p><b>Nut butters:</b> iron, protein, fat, zinc</p>
-            <p><b>Beans/Peas/Lentils:</b> iron, protein, calcium, zinc</p>
-            <p><b>Cheese/Yogurt:</b> protein, fat, B12, calcium, zinc</p>
-        </div> */}
         <h2>Powerhouse foods</h2>
         <div className="powerhouseContainer">
             <div className="header"></div>
