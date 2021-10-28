@@ -4,7 +4,7 @@ import {Route, BrowserRouter as Router} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import About from './pages/About';
-import EasyMeals from './pages/EasyMeals';
+import Recipes from './pages/Recipes';
 import Resources from './pages/Resources';
 import Nutrition from './pages/Nutrition';
 import Safety from './pages/Safety';
@@ -21,7 +21,7 @@ const routing = (
             <Route path="/nutrition" component={Nutrition}/>
             <Route path="/about" component={About}/>
             <Route path="/resources" component={Resources}/>
-            <Route path="/easymeals" component={EasyMeals}/>
+            <Route path="/recipes" component={Recipes}/>
             <Route path="/safety" component={Safety}/>
             <footer>
               <p>Website by <a href="https://www.snowgillconsulting.com">Snowgill Consulting</a></p>

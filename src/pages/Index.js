@@ -30,10 +30,10 @@ const Home = () => (
                     <p>Everything you need to know about what nutrients your baby needs and when.</p>
                 </div>
             </div>
-            <div className="section" onClick={() => changePage("easymeals")}>
+            <div className="section" onClick={() => changePage("recipes")}>
                 <div className="s2"></div>
                 <div>
-                    <h3>Meals</h3>
+                    <h3>Recipes</h3>
                     <p>Learn how to feed your baby safely, plus some easy recipes for busy parents.</p>
                 </div>
             </div>
