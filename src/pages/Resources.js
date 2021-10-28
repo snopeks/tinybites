@@ -6,8 +6,8 @@ const Resources = () => (
     <div className="content">
         <h2 className="pageTitle">Resources</h2>
         <div className="text">
-            <p>The best way to develop confidence in feeding your baby is by learning from the experts.</p>
-            <p>Here are just a few of my favorite baby feeding resources.</p>
+            <p>The best way to develop confidence in feeding your baby is by learning from the experts, and actually feeding your baby.</p>
+            <p>Here are just a few of my favorite baby feeding resources. Have fun at mealtime!</p>
         </div>
         <div id="resourceContainer" className="container">
             <div>

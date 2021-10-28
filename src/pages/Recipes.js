@@ -149,7 +149,7 @@ let sauceRecipes = [
     }
 ]
 
-class EasyMeals extends Component {
+class Recipes extends Component {
     GenerateRecipes(recipesData){
         let recipeContent = recipesData.map((recipe, key) => {
             return (
@@ -220,4 +220,4 @@ class EasyMeals extends Component {
     }
 }
 
-export default EasyMeals; 
+export default Recipes; 
